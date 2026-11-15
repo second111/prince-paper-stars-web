@@ -1,0 +1,13 @@
+Quaternius Fox
+
+Source:
+https://poly.pizza/m/Bc97C66HKi
+https://quaternius.com/packs/ultimateanimatedanimals.html
+
+Creator: Quaternius
+License: Creative Commons Zero v1.0 Universal (CC0 1.0)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The bundled file quaternius_fox_animated.glb is the animated fox from the
+Ultimate Animated Animal Pack. It includes idle, walk, gallop, eating, jump,
+attack, hit-reaction and related animation clips.
