@@ -308,7 +308,7 @@ func _build_capture_ui() -> void:
 	)
 	capture_live_label = _make_overlay_label(
 		capture_root,
-		"●  LIVE  ·  8:5",
+		"o  LIVE  |  8:5",
 		16,
 		Color(1.0, 0.43, 0.30, 1.0),
 		HORIZONTAL_ALIGNMENT_CENTER
@@ -322,7 +322,7 @@ func _build_capture_ui() -> void:
 	)
 	capture_hint_label = _make_overlay_label(
 		capture_root,
-		"拖动星球旋转 · 滚轮缩放 · 双击复位 · Q / E 调整仰角",
+		"拖动星球旋转 | 滚轮缩放 | 双击复位 | Q / E 调整仰角",
 		18,
 		Color(0.96, 0.90, 0.75, 0.80),
 		HORIZONTAL_ALIGNMENT_CENTER
@@ -380,21 +380,21 @@ func _build_capture_ui() -> void:
 	pan_grid.add_theme_constant_override("v_separation", 4)
 	pan_group.add_child(pan_grid)
 	pan_grid.add_child(_make_camera_grid_spacer())
-	var up := _make_camera_button("↑", "镜头上移", Vector2(34.0, 28.0))
+	var up := _make_camera_button("^", "镜头上移", Vector2(34.0, 28.0))
 	up.pressed.connect(_pan_camera.bind(Vector2(0.0, 1.0)))
 	pan_grid.add_child(up)
 	pan_grid.add_child(_make_camera_grid_spacer())
-	var left := _make_camera_button("←", "镜头左移", Vector2(34.0, 28.0))
+	var left := _make_camera_button("<", "镜头左移", Vector2(34.0, 28.0))
 	left.pressed.connect(_pan_camera.bind(Vector2(-1.0, 0.0)))
 	pan_grid.add_child(left)
-	var reset := _make_camera_button("·", "镜头回到初始位置", Vector2(34.0, 28.0))
+	var reset := _make_camera_button("|", "镜头回到初始位置", Vector2(34.0, 28.0))
 	reset.pressed.connect(_reset_capture_camera)
 	pan_grid.add_child(reset)
-	var right := _make_camera_button("→", "镜头右移", Vector2(34.0, 28.0))
+	var right := _make_camera_button(">", "镜头右移", Vector2(34.0, 28.0))
 	right.pressed.connect(_pan_camera.bind(Vector2(1.0, 0.0)))
 	pan_grid.add_child(right)
 	pan_grid.add_child(_make_camera_grid_spacer())
-	var down := _make_camera_button("↓", "镜头下移", Vector2(34.0, 28.0))
+	var down := _make_camera_button("v", "镜头下移", Vector2(34.0, 28.0))
 	down.pressed.connect(_pan_camera.bind(Vector2(0.0, -1.0)))
 	pan_grid.add_child(down)
 	pan_grid.add_child(_make_camera_grid_spacer())
@@ -1204,9 +1204,9 @@ func _play_stamp_and_generate(planet_name: String) -> void:
 	last_letter_path = generated_path
 	result_letter.texture = ImageTexture.create_from_image(current_letter)
 	result_path_label.text = (
-		"已保存到星球记忆 · 手机与电脑连接同一网络后可扫码查看"
+		"已保存到星球记忆 | 手机与电脑连接同一网络后可扫码查看"
 		if not last_share_url.is_empty()
-		else "已保存到星球记忆 · 可以收下这张信纸了"
+		else "已保存到星球记忆 | 可以收下这张信纸了"
 	)
 	result_root.visible = true
 	_layout_result_ui()
@@ -1514,7 +1514,7 @@ func _build_letter_copy() -> Dictionary:
 		secondary = ranked[1]
 	var classification := primary + "星球"
 	if not secondary.is_empty():
-		classification = "%s · %s星球" % [primary, secondary]
+		classification = "%s | %s星球" % [primary, secondary]
 
 	var narrative := String(
 		CLASS_NARRATIVES.get(
@@ -1816,7 +1816,7 @@ func _layout_echo(records: Array[Dictionary]) -> String:
 		landmark = "纸船停在河岸"
 	elif (
 		_contains_record_kind(records, "player_star_rose_combo")
-		and "玫瑰 · 底座 · 玻璃罩" not in nearby
+		and "玫瑰 | 底座 | 玻璃罩" not in nearby
 	):
 		landmark = "玫瑰在玻璃罩里静静亮着"
 	if night and not light_label.is_empty():

@@ -305,7 +305,7 @@ func _discover_controls() -> void:
 		register_control(
 			control,
 			"%s.auto.%s" % [active_scope, safe_path],
-			"%s · %s" % [kind_label, str(control.get_path()).get_file()],
+			"%s | %s" % [kind_label, str(control.get_path()).get_file()],
 			has_text
 		)
 
@@ -616,12 +616,12 @@ func _update_status() -> void:
 		return
 	var control := target.control as Control
 	var font_part := (
-		" · 字号 %d" % int(target.font_size)
+		" | 字号 %d" % int(target.font_size)
 		if bool(target.get("editable_font", false))
 		else ""
 	)
 	_set_status(
-		"%s · x %.0f  y %.0f  w %.0f  h %.0f%s"
+		"%s | x %.0f  y %.0f  w %.0f  h %.0f%s"
 		% [
 			String(target.label),
 			control.position.x,

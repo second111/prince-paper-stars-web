@@ -210,7 +210,7 @@ func _respond_page(peer: StreamPeerTCP, memory_id: String) -> void:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>%s · 星球手记</title>
+<title>%s | 星球手记</title>
 <style>
 :root{color-scheme:dark;--ink:#432f23;--paper:#f2e6c8;--gold:#aa7d3d;--night:#10243d;--fog:#6f8396}
 *{box-sizing:border-box}html,body{margin:0;min-height:100%%}
@@ -225,7 +225,7 @@ body{padding:28px 16px 44px;background:radial-gradient(circle at 18%% 12%%,#2d45
 </style>
 </head>
 <body><main class="card">
-<div class="eyebrow">THE LITTLE PRINCE · PLANET MEMORY</div>
+<div class="eyebrow">THE LITTLE PRINCE | PLANET MEMORY</div>
 <h1 class="title">%s</h1>
 <div class="class">%s</div>
 <img class="letter" src="%s" alt="%s的星球纪念信">

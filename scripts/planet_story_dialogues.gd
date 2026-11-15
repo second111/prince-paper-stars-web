@@ -14,7 +14,7 @@ const TITLE_BY_SCENE := {
 	"rose": "玫瑰",
 	"vain": "爱慕虚荣的人",
 	"merchant": "商人",
-	"earth": "狐狸 · 地球",
+	"earth": "狐狸 | 地球",
 }
 
 const COMPLETION_QUOTES := {

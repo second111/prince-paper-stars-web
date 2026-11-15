@@ -205,7 +205,7 @@ const STAR_BACKPACK_PLACEABLE_ASSETS := {
 	"rose": [
 		{
 			"kind": "player_star_rose_combo",
-			"label": "玫瑰 · 底座 · 玻璃罩",
+			"label": "玫瑰 | 底座 | 玻璃罩",
 			"path": ROSE_3D_DIR + "glass_dome.glb",
 			"extent": 1.24,
 			"yaw": 0.0,
@@ -504,7 +504,7 @@ const EARTH_LIGHT_YAW_STEP := 10.0
 const GENERATED_PLANET_SCENES := {
 	"玫瑰": {
 		"slug": "rose",
-		"kicker": "第六颗星 · ASTEROID B-612",
+		"kicker": "第六颗星 | ASTEROID B-612",
 		"quote": "“一朵玫瑰，把整颗星球变成了家。”",
 		"base": ROSE_3D_DIR + "rose_planet_base.glb",
 		"atmosphere": Color(0.58, 0.42, 0.76, 0.34),
@@ -527,7 +527,7 @@ const GENERATED_PLANET_SCENES := {
 	},
 	"爱慕虚荣的人": {
 		"slug": "vain",
-		"kicker": "第二颗星 · ASTEROID 326",
+		"kicker": "第二颗星 | ASTEROID 326",
 		"quote": "“他要所有的掌声，却不敢看镜子背面。”",
 		"base": VAIN_3D_DIR + "vain_planet_base.glb",
 		"atmosphere": Color(0.68, 0.42, 0.88, 0.34),
@@ -549,7 +549,7 @@ const GENERATED_PLANET_SCENES := {
 	},
 	"商人": {
 		"slug": "merchant",
-		"kicker": "第四颗星 · ASTEROID 328",
+		"kicker": "第四颗星 | ASTEROID 328",
 		"quote": "“他把星星编上号码，却从不抬头看它们。”",
 		"base": MERCHANT_3D_DIR + "merchant_planet_base.glb",
 		"atmosphere": Color(0.38, 0.50, 0.76, 0.30),
@@ -574,7 +574,7 @@ const GENERATED_PLANET_SCENES := {
 	},
 	"狐狸与麦田": {
 		"slug": "earth",
-		"kicker": "第三颗星 · EARTH",
+		"kicker": "第三颗星 | EARTH",
 		"quote": "“麦浪会记住一种脚步声。”",
 		"base": EARTH_3D_DIR + "earth_planet_base.glb",
 		"atmosphere": Color(0.42, 0.62, 0.90, 0.30),
@@ -593,7 +593,7 @@ const GENERATED_PLANET_SCENES := {
 	},
 	"我的星球": {
 		"slug": "player",
-		"kicker": "第七颗星 · YOUR OWN PLANET",
+		"kicker": "第七颗星 | YOUR OWN PLANET",
 		"quote": "“这一次，星球由你来写。”",
 		"base": PLAYER_SCENE_BASE_3D,
 		"atmosphere": Color(0.44, 0.68, 0.70, 0.30),
@@ -855,11 +855,11 @@ const JOURNEY_STATE_PATH := "user://journey.cfg"
 const ONBOARDING_STATE_PATH := "user://onboarding_state.cfg"
 const MEMORY_ORDER := ["rose", "king", "vain", "earth", "merchant", "pointlighter"]
 const MAP_IDLE_HINTS := [
-	"移动鼠标 · 点击星球 · ESC 返回",
+	"移动鼠标 | 点击星球 | ESC 返回",
 	"编号是路标，不是顺序",
 ]
 const PLAYER_IDLE_HINTS := [
-	"按住拖动看四周 · 滚轮缩放 · 双击复位",
+	"按住拖动看四周 | 滚轮缩放 | 双击复位",
 	"点地面或发光座位，角色会自己走过去",
 	"点击星球上方的光点，切换白天与夜晚",
 	"人物未能前进时会自动回到安全站位",
@@ -1818,7 +1818,7 @@ func _ready() -> void:
 	king_cutout_bright_background = OS.get_cmdline_user_args().has(
 		"--king-cutout-bright-bg"
 	)
-	get_window().title = "小王子 · 纸雕星图"
+	get_window().title = "小王子 | 纸雕星图"
 	_load_awake_state()
 	_load_planet_story_state()
 	_load_memory_state()
@@ -2396,7 +2396,7 @@ func _build_cover() -> void:
 		_register_ui_control(
 			cover_title_labels[index],
 			"cover.title.%d" % index,
-			"封面标题 · %d" % (index + 1)
+			"封面标题 | %d" % (index + 1)
 		)
 
 	var rule_a := ColorRect.new()
@@ -2428,7 +2428,7 @@ func _build_cover() -> void:
 	_register_ui_control(subtitle, "cover.subtitle", "封面副标题")
 
 	cover_enter_button = Button.new()
-	cover_enter_button.text = "·   进入星图   ·"
+	cover_enter_button.text = "|   进入星图   |"
 	cover_enter_button.position = Vector2(675, 654)
 	cover_enter_button.size = Vector2(250, 80)
 	_apply_paper_button_style(
@@ -2476,7 +2476,7 @@ func _build_cover() -> void:
 
 	var cover_hint := _add_label(
 		cover_content,
-		"自动存档   ·   读取进度会回到星盘",
+		"自动存档   |   读取进度会回到星盘",
 		Vector2(500, 806),
 		Vector2(600, 36),
 		13,
@@ -2690,9 +2690,9 @@ func _on_modal_shade_input(event: InputEvent, overlay: Control) -> void:
 func _refresh_cover_session_controls() -> void:
 	if cover_enter_button != null:
 		cover_enter_button.text = (
-			"·   继续星图   ·"
+			"|   继续星图   |"
 			if SaveManager.active_slot_has_save()
-			else "·   进入星图   ·"
+			else "|   进入星图   |"
 		)
 	if cover_load_button != null:
 		cover_load_button.disabled = not SaveManager.has_any_save()
@@ -2723,14 +2723,14 @@ func _refresh_load_slot_buttons() -> void:
 		var exists := bool(slot_data.get("exists", false))
 		var valid := bool(slot_data.get("valid", false))
 		if not exists:
-			button.text = "自动存档 %d     ·     尚无进度" % (index + 1)
+			button.text = "自动存档 %d     |     尚无进度" % (index + 1)
 			button.disabled = true
 			continue
 		if not valid:
-			button.text = "自动存档 %d     ·     存档文件不完整" % (index + 1)
+			button.text = "自动存档 %d     |     存档文件不完整" % (index + 1)
 			button.disabled = true
 			continue
-		var active_marker := "   ·   当前档位" if index + 1 == SaveManager.active_slot else ""
+		var active_marker := "   |   当前档位" if index + 1 == SaveManager.active_slot else ""
 		button.text = "%s\n%s" % [
 			_format_slot_title(index + 1, meta, active_marker),
 			_format_slot_summary(meta),
@@ -2742,14 +2742,14 @@ func _format_slot_title(slot: int, meta: Dictionary, marker: String) -> String:
 	var saved_at := String(meta.get("saved_at_text", ""))
 	if saved_at.length() > 16:
 		saved_at = saved_at.substr(5, 11)
-	return "自动存档 %d     ·     %s%s" % [slot, saved_at, marker]
+	return "自动存档 %d     |     %s%s" % [slot, saved_at, marker]
 
 
 func _format_slot_summary(meta: Dictionary) -> String:
 	var chapter := String(meta.get("chapter", "星图探索"))
 	var awake_count := int(meta.get("awake_count", 0))
 	var memory_count := int(meta.get("memory_count", 0))
-	return "        %s   ·   已点亮 %d/6   ·   星光 %d/6" % [
+	return "        %s   |   已点亮 %d/6   |   星光 %d/6" % [
 		chapter,
 		awake_count,
 		memory_count,
@@ -2938,7 +2938,7 @@ func _build_map() -> void:
 
 	map_hint = _add_label(
 		map_screen,
-		"移动鼠标 · 点击星球 · ESC 返回封面",
+		"移动鼠标 | 点击星球 | ESC 返回封面",
 		Vector2(500, 920),
 		Vector2(600, 36),
 		13,
@@ -3335,7 +3335,7 @@ func _add_planet_button(data: Dictionary, index: int, shader_resource: Shader) -
 	_register_ui_control(
 		tag_frame,
 		"map.planet.%s.tag_paper" % String(data.slug),
-		"%s · 星球编号底板" % String(data.name),
+		"%s | 星球编号底板" % String(data.name),
 		false
 	)
 	var label := _add_label(
@@ -3350,7 +3350,7 @@ func _add_planet_button(data: Dictionary, index: int, shader_resource: Shader) -
 	_register_ui_control(
 		label,
 		"map.planet.%s.tag_text" % String(data.slug),
-		"%s · 星球编号文字" % String(data.name)
+		"%s | 星球编号文字" % String(data.name)
 	)
 
 	planet_records[String(data.name)] = {
@@ -3533,7 +3533,7 @@ func _layout_cover_title() -> void:
 		_register_ui_control(
 			title,
 			"cover.title.%d" % index,
-			"封面标题 · %d" % (index + 1)
+			"封面标题 | %d" % (index + 1)
 		)
 
 
@@ -3808,7 +3808,7 @@ func _on_planet_pressed(name: String) -> void:
 		return
 	var record: Dictionary = planet_records[name]
 	var data: Dictionary = record.data
-	detail_name.text = "星球 · %s · %s" % [data.id, data.name]
+	detail_name.text = "星球 | %s | %s" % [data.id, data.name]
 	detail_text.text = String(data.text)
 	await _wait_for_simulated_planet_loading(request_id)
 	if not _is_planet_zoom_current(name, request_id):
@@ -4318,7 +4318,7 @@ func _reveal_player_planet_on_map() -> void:
 			button.grab_focus()
 			_save_journey_state()
 			if map_hint != null:
-				map_hint.text = "新的星路已出现 · 点击第七星开始布置"
+				map_hint.text = "新的星路已出现 | 点击第七星开始布置"
 	)
 
 
@@ -4393,9 +4393,9 @@ func _apply_player_planet_map_reveal(revealed: bool) -> void:
 		passage_prince_below.scale = Vector2.ONE * passage_prince_map_scale
 	if map_hint != null:
 		map_hint.text = (
-			"新的星路已出现 · 点击第七星开始布置"
+			"新的星路已出现 | 点击第七星开始布置"
 			if revealed
-			else "移动鼠标 · 点击星球 · ESC 返回封面"
+			else "移动鼠标 | 点击星球 | ESC 返回封面"
 		)
 
 
@@ -6531,7 +6531,7 @@ func _update_3d_interaction_ui() -> void:
 		chair_target_marker.visible = false
 	chair_status_label.visible = false
 	if chair_state == "floating":
-		chair_status_label.text = "小王子搬来了一把椅子 · 拖到点灯人身边"
+		chair_status_label.text = "小王子搬来了一把椅子 | 拖到点灯人身边"
 	elif chair_state == "dragging":
 		chair_status_label.text = "拖到金色标记附近，再松开"
 
@@ -6622,7 +6622,7 @@ func _finish_chair_drag() -> void:
 		chair_3d.transform = chair_target_transform
 		chair_3d.scale = chair_target_scale
 		chair_state = "placed"
-		chair_status_label.text = "椅子放好了 · 让他也歇一会儿"
+		chair_status_label.text = "椅子放好了 | 让他也歇一会儿"
 		return
 	chair_state = "floating"
 	chair_3d.transform = chair_float_transform
@@ -6998,7 +6998,7 @@ func _set_player_dialogue_bubble_mode(enabled: bool) -> void:
 		)
 	if enabled:
 		if dialogue_heading != null:
-			dialogue_heading.text = "✦  想问小王子什么？"
+			dialogue_heading.text = "*  想问小王子什么？"
 	else:
 		_set_player_dialogue_lights_active(false)
 		_clear_player_dialogue_bubbles()
@@ -7163,7 +7163,7 @@ func _select_dialogue_text_box(slot_index: int) -> void:
 			]
 		)
 		dialogue_text_status.text = (
-			"第 %d 个文字框 · x %.0f  y %.0f  w %.0f  h %.0f · %s · 行距 %d"
+			"第 %d 个文字框 | x %.0f  y %.0f  w %.0f  h %.0f | %s | 行距 %d"
 			% [
 				selected_dialogue_text_index + 1,
 				float(slot.x),
@@ -7895,7 +7895,7 @@ func _start_king_dialogue() -> void:
 	lamp_dialogue_trigger.visible = false
 	dialogue_panel.visible = true
 	dialogue_panel.modulate.a = 1.0
-	dialogue_heading.text = "✦  国王"
+	dialogue_heading.text = "*  国王"
 	AudioDirector.set_dialogue_duck(true)
 	_begin_dialogue_camera_focus()
 	for child in dialogue_log.get_children():
@@ -7922,7 +7922,7 @@ func _start_lamplighter_dialogue() -> void:
 	lamp_dialogue_trigger.visible = false
 	dialogue_panel.visible = true
 	dialogue_panel.modulate.a = 1.0
-	dialogue_heading.text = "✦  点灯人"
+	dialogue_heading.text = "*  点灯人"
 	AudioDirector.set_dialogue_duck(true)
 	_begin_dialogue_camera_focus()
 	_play_lamplighter_reaction("agree_001")
@@ -7974,7 +7974,7 @@ func _start_player_prince_dialogue() -> void:
 	_set_player_dialogue_lights_active(true)
 	dialogue_panel.visible = true
 	dialogue_panel.modulate.a = 1.0
-	dialogue_heading.text = "✦  想问小王子什么？"
+	dialogue_heading.text = "*  想问小王子什么？"
 	AudioDirector.set_dialogue_duck(true)
 	_begin_dialogue_camera_focus()
 	if hud_scene_hint != null:
@@ -8120,7 +8120,7 @@ func _start_generated_story_dialogue(slug: String) -> void:
 	lamp_dialogue_trigger.visible = false
 	dialogue_panel.visible = true
 	dialogue_panel.modulate.a = 1.0
-	dialogue_heading.text = "✦  " + String(
+	dialogue_heading.text = "*  " + String(
 		STORY_DIALOGUE_DATA.TITLE_BY_SCENE.get(slug, slug)
 	)
 	AudioDirector.set_dialogue_duck(true)
@@ -8618,7 +8618,7 @@ func _clear_story_action_ui() -> void:
 func _story_planet_idle_hints(slug: String) -> Array[String]:
 	var hints: Array[String] = []
 	if not story_camera_hint_shown:
-		hints.append("按住拖动看四周 · 滚轮缩放 · 双击复位")
+		hints.append("按住拖动看四周 | 滚轮缩放 | 双击复位")
 		story_camera_hint_shown = true
 	if not story_item_hint_shown:
 		hints.append("蓝色光点藏着物件的话，点一下看看")
@@ -13661,7 +13661,7 @@ func _start_player_handhold() -> void:
 					prince_node.global_position
 				) > PLAYER_HANDHOLD_ATTACH_DISTANCE
 			)
-			else "已牵手 · 点击地面带着小王子走"
+			else "已牵手 | 点击地面带着小王子走"
 		)
 	_update_player_handhold_link()
 
@@ -13675,7 +13675,7 @@ func _release_player_handhold() -> void:
 		player_navigation_prince_follow_state = "idle"
 		_set_player_navigation_walk(_player_prince_record_index(), false)
 	if player_place_status != null and current_3d_scene == "player":
-		player_place_status.text = "已松开手 · 小王子恢复普通跟随"
+		player_place_status.text = "已松开手 | 小王子恢复普通跟随"
 
 
 func _update_player_handhold(delta: float) -> void:
@@ -13766,7 +13766,7 @@ func _update_player_handhold_link() -> void:
 	else:
 		_update_player_handhold_target(target_world)
 	if player_place_status != null:
-		player_place_status.text = "已牵手 · 点击地面带着小王子走"
+		player_place_status.text = "已牵手 | 点击地面带着小王子走"
 
 
 func _player_handhold_target_world(
@@ -19417,7 +19417,7 @@ func _toggle_3d_editor() -> void:
 		if editor_scroll != null:
 			editor_scroll.scroll_vertical = 0
 		if editor_heading != null:
-			editor_heading.text = "布局 · %s" % _current_scene_display_name()
+			editor_heading.text = "布局 | %s" % _current_scene_display_name()
 		if editor_earth_wheat_controls != null:
 			editor_earth_wheat_controls.visible = current_3d_scene == "earth"
 		_sync_planet_base_lighting_control()
@@ -19454,18 +19454,18 @@ func _refresh_editor_object_list() -> void:
 	editor_object_select.set_block_signals(true)
 	editor_object_select.clear()
 	if editable_3d_objects.is_empty():
-		editor_object_select.add_item("星球基底已就绪 · 下一阶段加入可摆放模型")
+		editor_object_select.add_item("星球基底已就绪 | 下一阶段加入可摆放模型")
 		editor_object_select.set_item_disabled(0, true)
 	for index in editable_3d_objects.size():
 		var record: Dictionary = editable_3d_objects[index]
-		var lock_suffix := "  ·  已锁定" if bool(record.get("locked", false)) else ""
+		var lock_suffix := "  |  已锁定" if bool(record.get("locked", false)) else ""
 		var hidden_suffix := (
-			"  ·  默认隐藏"
+			"  |  默认隐藏"
 			if bool(record.get("default_hidden", false))
 			else ""
 		)
 		editor_object_select.add_item(
-			"%s  ·  %s%s%s" % [
+			"%s  |  %s%s%s" % [
 				String(record.label),
 				String(record.id),
 				lock_suffix,
@@ -19844,7 +19844,7 @@ func _sync_editor_controls() -> void:
 		if editor_height_lock_row != null:
 			editor_height_lock_row.visible = false
 		if editable_3d_objects.is_empty() and editor_position_label != null:
-			editor_position_label.text = "当前只展示星球基底 · 可先调整镜头、朝向与基础光照"
+			editor_position_label.text = "当前只展示星球基底 | 可先调整镜头、朝向与基础光照"
 		return
 	var record: Dictionary = editable_3d_objects[selected_editable_index]
 	_sync_character_animation_controls(record)
@@ -20027,7 +20027,7 @@ func _sync_editor_controls() -> void:
 			else "离星球摆放面"
 		)
 		editor_position_label.text = (
-			"平面位置  X %+.2f  ·  Z %+.2f  ·  %s %+.2f"
+			"平面位置  X %+.2f  |  Z %+.2f  |  %s %+.2f"
 			% [
 				position.x,
 				position.z,
@@ -20037,7 +20037,7 @@ func _sync_editor_controls() -> void:
 		)
 	elif is_plane:
 		var position: Vector3 = record.position
-		editor_position_label.text = "平面位置  X %+.2f  ·  Z %+.2f  ·  高度 %.2f" % [
+		editor_position_label.text = "平面位置  X %+.2f  |  Z %+.2f  |  高度 %.2f" % [
 			position.x,
 			position.z,
 			position.y,
@@ -20046,7 +20046,7 @@ func _sync_editor_controls() -> void:
 		var normal: Vector3 = record.normal
 		var latitude := rad_to_deg(asin(clampf(normal.y, -1.0, 1.0)))
 		var longitude := rad_to_deg(atan2(normal.x, normal.z))
-		editor_position_label.text = "球面位置  纬度 %+.1f°  ·  经度 %+.1f°" % [latitude, longitude]
+		editor_position_label.text = "球面位置  纬度 %+.1f°  |  经度 %+.1f°" % [latitude, longitude]
 
 
 func _on_editor_scale_changed(value: float) -> void:
@@ -20169,7 +20169,7 @@ func _on_editor_distance_changed(value: float) -> void:
 		editor_distance_value.text = "%.2f" % value
 		_apply_editable_3d_record(selected_editable_index)
 		var moved: Vector3 = record.position
-		editor_position_label.text = "平面位置  X %+.2f  ·  Z %+.2f  ·  高度 %.2f" % [
+		editor_position_label.text = "平面位置  X %+.2f  |  Z %+.2f  |  高度 %.2f" % [
 			moved.x,
 			moved.z,
 			moved.y,
@@ -20181,7 +20181,7 @@ func _on_editor_distance_changed(value: float) -> void:
 	var normal: Vector3 = record.normal
 	var latitude := rad_to_deg(asin(clampf(normal.y, -1.0, 1.0)))
 	var longitude := rad_to_deg(atan2(normal.x, normal.z))
-	editor_position_label.text = "球面位置  纬度 %+.1f°  ·  经度 %+.1f°" % [latitude, longitude]
+	editor_position_label.text = "球面位置  纬度 %+.1f°  |  经度 %+.1f°" % [latitude, longitude]
 
 
 func _on_editor_height_changed(value: float) -> void:
@@ -20282,7 +20282,7 @@ func _on_editor_height_changed(value: float) -> void:
 	record["root_radius"] = value
 	editor_height_value.text = "%.2f" % value
 	_apply_editable_3d_record(selected_editable_index)
-	editor_position_label.text = "平面位置  X %+.2f  ·  Z %+.2f  ·  高度 %.2f" % [
+	editor_position_label.text = "平面位置  X %+.2f  |  Z %+.2f  |  高度 %.2f" % [
 		position.x,
 		position.z,
 		position.y,
@@ -22669,7 +22669,7 @@ func _build_3d_hud() -> void:
 		"星球标题底板",
 		false
 	)
-	hud_scene_kicker = _add_label(hud_scene_title_plate, "第五颗星 · ASTEROID B-612", Vector2(102, 44), Vector2(298, 22), 13, Color(0.40, 0.28, 0.18, 0.94), HORIZONTAL_ALIGNMENT_LEFT)
+	hud_scene_kicker = _add_label(hud_scene_title_plate, "第五颗星 | ASTEROID B-612", Vector2(102, 44), Vector2(298, 22), 13, Color(0.40, 0.28, 0.18, 0.94), HORIZONTAL_ALIGNMENT_LEFT)
 	hud_scene_kicker.add_theme_color_override("font_shadow_color", Color.TRANSPARENT)
 	_register_ui_control(hud_scene_kicker, "hud.title.kicker", "星球编号标题")
 	hud_scene_title = _add_label(hud_scene_title_plate, "点灯人", Vector2(94, 72), Vector2(278, 42), 32, Color(0.27, 0.19, 0.13, 1.0), HORIZONTAL_ALIGNMENT_LEFT)
@@ -22718,7 +22718,7 @@ func _build_3d_hud() -> void:
 	_register_ui_control(hud_scene_hint, "hud.hint", "星球页操作提示")
 	earth_fox_search_controls = _add_label(
 		root,
-		"拖动星球寻找 · 滚轮缩放 · 双击复位",
+		"拖动星球寻找 | 滚轮缩放 | 双击复位",
 		Vector2(420, 168),
 		Vector2(600, 34),
 		16,
@@ -23621,7 +23621,7 @@ func _build_player_placement_ui(root: Control) -> void:
 	page_tabs.add_child(player_place_stars_tab)
 
 	var hint := Label.new()
-	hint.text = "拖缩略图到星球摆放 · 点击物品显示调整按钮 · 点击空白取消选择"
+	hint.text = "拖缩略图到星球摆放 | 点击物品显示调整按钮 | 点击空白取消选择"
 	hint.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	hint.add_theme_font_size_override("font_size", UI_FONT_CAPTION)
 	hint.add_theme_color_override("font_color", Color(0.84, 0.82, 0.76, 0.76))
@@ -23925,7 +23925,7 @@ func _build_player_avatar_picker(root: Control) -> void:
 	margin.add_child(column)
 
 	var kicker := Label.new()
-	kicker.text = "MY PLANET · 第一次见面"
+	kicker.text = "MY PLANET | 第一次见面"
 	kicker.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	kicker.add_theme_font_size_override("font_size", UI_FONT_CAPTION)
 	kicker.add_theme_color_override(
@@ -24717,7 +24717,7 @@ func _show_player_onboarding_step(step: int) -> void:
 			player_onboarding_body.text = (
 				"你和小王子已经来到这里。点地面或发光座位，角色会自己走过去。"
 			)
-			player_onboarding_note.text = "拖动旋转 · 滚轮缩放 · 双击复位"
+			player_onboarding_note.text = "拖动旋转 | 滚轮缩放 | 双击复位"
 			player_onboarding_button.text = "开始探索"
 		1:
 			player_onboarding_title.text = "先布置这里"
@@ -25219,7 +25219,7 @@ func _rebuild_player_place_cards() -> void:
 		for slug in MEMORY_ORDER:
 			if String(memory_collection_states.get(slug, "locked")) == "collected":
 				collected_count += 1
-		player_place_status.text = "星光 %d / %d · %d 件" % [
+		player_place_status.text = "星光 %d / %d | %d 件" % [
 			collected_count,
 			MEMORY_ORDER.size(),
 			_collected_star_placeable_count(),
@@ -25254,7 +25254,7 @@ func _refresh_player_scene_hint() -> void:
 	_apply_player_scene_hint_layout()
 	if player_place_dock != null and player_place_dock.visible:
 		hud_scene_hint.text = (
-			"摆放已打开 · 点击物品显示调整按钮 · 拖动摆位 · 点击空白取消选择"
+			"摆放已打开 | 点击物品显示调整按钮 | 拖动摆位 | 点击空白取消选择"
 		)
 		return
 	_begin_player_hint_cycle()
@@ -25683,7 +25683,7 @@ func _on_player_place_height_changed(value: float) -> void:
 	player_place_height_value.text = "%+.2f" % height_offset
 	_update_editor_selection_ring()
 	_sync_editor_controls()
-	player_place_status.text = "%s · %s %+.2f" % [
+	player_place_status.text = "%s | %s %+.2f" % [
 		String(record.label),
 		"坐姿高度" if (
 			_is_player_character_kind(character_kind)
@@ -26060,7 +26060,7 @@ func _update_player_asset_drag_status(
 			else "拖到摆放平面"
 		)
 	)
-	player_place_status.text = "%s：%s · 离地 %+.2f · 缩放 %d%%" % [
+	player_place_status.text = "%s：%s | 离地 %+.2f | 缩放 %d%%" % [
 		placement_target,
 		String(asset_data.label),
 		player_3d_drag_preview_height_offset,
@@ -26572,7 +26572,7 @@ func _update_player_item_action_arc() -> void:
 		else Color.WHITE
 	)
 	player_item_lock_button.tooltip_text = (
-		"已锁定当前位置 · 点击解锁"
+		"已锁定当前位置 | 点击解锁"
 		if item_locked
 		else "锁定当前位置"
 	)
@@ -26702,7 +26702,7 @@ func _rotate_player_item_z(delta_degrees: float) -> void:
 	_apply_editable_3d_record(selected_editable_index)
 	_update_editor_selection_ring()
 	_save_3d_layout()
-	player_place_status.text = "%s · Z 轴 %+.0f°" % [
+	player_place_status.text = "%s | Z 轴 %+.0f°" % [
 		String(record.label),
 		float(record.yaw),
 	]
@@ -26982,11 +26982,11 @@ func _update_player_light_string_preview(screen_position: Vector2) -> void:
 		end
 	)
 	var snap_text := (
-		" · 吸附：" + player_light_string_snap_label
+		" | 吸附：" + player_light_string_snap_label
 		if not player_light_string_snap_label.is_empty()
 		else ""
 	)
-	player_place_status.text = "灯串预览：第二次点击确定尾端 · %d 颗%s" % [
+	player_place_status.text = "灯串预览：第二次点击确定尾端 | %d 颗%s" % [
 		int(player_light_string_preview.call("get_bulb_count")),
 		snap_text,
 	]
@@ -27049,7 +27049,7 @@ func _commit_player_light_string(screen_position: Vector2) -> void:
 	player_light_string_drawing = false
 	player_light_string_has_start = false
 	Input.set_default_cursor_shape(Input.CURSOR_ARROW)
-	player_place_status.text = "灯串已生成 · 可拖动两个浅黄端点调整"
+	player_place_status.text = "灯串已生成 | 可拖动两个浅黄端点调整"
 	_save_3d_layout()
 
 
@@ -27237,9 +27237,9 @@ func _handle_player_light_string_pointer_event(event: InputEvent) -> bool:
 			)
 			player_light_string_has_start = true
 			player_place_status.text = (
-				"首端已记录%s · 移动鼠标预览，第二次点击确定尾端"
+				"首端已记录%s | 移动鼠标预览，第二次点击确定尾端"
 				% (
-					" · 吸附：" + player_light_string_snap_label
+					" | 吸附：" + player_light_string_snap_label
 					if not player_light_string_snap_label.is_empty()
 					else ""
 				)
@@ -27272,7 +27272,7 @@ func _handle_player_light_string_pointer_event(event: InputEvent) -> bool:
 		player_light_string_selected_index = string_index
 		player_light_string_dragged_handle = -1
 		Input.set_default_cursor_shape(Input.CURSOR_POINTING_HAND)
-		player_place_status.text = "已选中：灯串 · 点击旋转按钮调整朝向"
+		player_place_status.text = "已选中：灯串 | 点击旋转按钮调整朝向"
 		_update_player_item_action_arc()
 		get_viewport().set_input_as_handled()
 		return true
@@ -27561,7 +27561,7 @@ func _build_3d_editor_ui(root: Control) -> void:
 	content.add_child(editor_subheading)
 
 	var object_list_title := Label.new()
-	object_list_title.text = "物品列表 · 点击选择"
+	object_list_title.text = "物品列表 | 点击选择"
 	object_list_title.add_theme_font_size_override("font_size", UI_FONT_CAPTION)
 	object_list_title.add_theme_color_override("font_color", Color(0.88, 0.76, 0.54, 0.9))
 	content.add_child(object_list_title)
@@ -27654,7 +27654,7 @@ func _build_3d_editor_ui(root: Control) -> void:
 	planet_height_row.add_child(planet_height_title)
 	var planet_move_up_button := Button.new()
 	planet_move_up_button.name = "PlanetMoveUpButton"
-	planet_move_up_button.text = "↑ 星球上移"
+	planet_move_up_button.text = "^ 星球上移"
 	planet_move_up_button.custom_minimum_size = Vector2(108, 34)
 	planet_move_up_button.tooltip_text = "让星球在画面中向上移动"
 	_style_button(planet_move_up_button, Color(0.46, 0.78, 0.72))
@@ -27663,7 +27663,7 @@ func _build_3d_editor_ui(root: Control) -> void:
 	planet_height_row.add_child(planet_move_up_button)
 	var planet_move_down_button := Button.new()
 	planet_move_down_button.name = "PlanetMoveDownButton"
-	planet_move_down_button.text = "↓ 星球下移"
+	planet_move_down_button.text = "v 星球下移"
 	planet_move_down_button.custom_minimum_size = Vector2(108, 34)
 	planet_move_down_button.tooltip_text = "让星球在画面中向下移动"
 	_style_button(planet_move_down_button)
@@ -27780,7 +27780,7 @@ func _build_3d_editor_ui(root: Control) -> void:
 	earth_light_direction_title.tooltip_text = "绕星球旋转地球主光的方向"
 	earth_light_direction_row.add_child(earth_light_direction_title)
 	var light_left_button := Button.new()
-	light_left_button.text = "←"
+	light_left_button.text = "<"
 	light_left_button.custom_minimum_size = Vector2(38, 32)
 	light_left_button.tooltip_text = "主光向左旋转 10°"
 	_style_button(light_left_button)
@@ -27793,7 +27793,7 @@ func _build_3d_editor_ui(root: Control) -> void:
 	editor_earth_light_yaw_value.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	earth_light_direction_row.add_child(editor_earth_light_yaw_value)
 	var light_right_button := Button.new()
-	light_right_button.text = "→"
+	light_right_button.text = ">"
 	light_right_button.custom_minimum_size = Vector2(38, 32)
 	light_right_button.tooltip_text = "主光向右旋转 10°"
 	_style_button(light_right_button)
@@ -28222,7 +28222,7 @@ func _build_lamplighter_dialogue_ui(root: Control) -> void:
 	heading_row.custom_minimum_size = Vector2(0, 60)
 	content.add_child(heading_row)
 	var heading := Label.new()
-	heading.text = "◆  点灯人"
+	heading.text = "*  点灯人"
 	heading.position = Vector2(18, 0)
 	heading.size = Vector2(300, 42)
 	heading.add_theme_font_size_override("font_size", 34)
@@ -28672,7 +28672,7 @@ func _show_pointlighter_3d() -> void:
 		king_celestial_root.visible = false
 	_apply_pointlighter_environment()
 	if hud_scene_kicker != null:
-		hud_scene_kicker.text = "第五颗星 · ASTEROID B-612"
+		hud_scene_kicker.text = "第五颗星 | ASTEROID B-612"
 		hud_scene_title.text = "点灯人"
 		hud_scene_quote.text = "“每分钟点一次灯，因为他不知道还能做什么。”"
 		hud_scene_hint.text = ""
@@ -28738,7 +28738,7 @@ func _show_king_3d() -> void:
 		king_celestial_target_rotation = PI
 		_apply_king_day_night(0.0)
 	if hud_scene_kicker != null:
-		hud_scene_kicker.text = "第一颗星 · ASTEROID 325"
+		hud_scene_kicker.text = "第一颗星 | ASTEROID 325"
 		hud_scene_title.text = "国王"
 		if king_dialogue_complete:
 			hud_scene_quote.text = "“权力不是让世界停下，而是让每一次升落都有人回应。”"
@@ -29881,13 +29881,13 @@ func _update_journey_map_label(stop_count: int, completed_all: bool) -> void:
 	if map_scene_label == null:
 		return
 	if completed_all and stop_count >= MEMORY_ORDER.size() + 1:
-		map_scene_label.text = "星　图 · 星光已连成归途"
+		map_scene_label.text = "星　图 | 星光已连成归途"
 		map_scene_label.add_theme_color_override(
 			"font_color",
 			Color(0.93, 0.88, 0.76, 0.68)
 		)
 	elif stop_count >= 2:
-		map_scene_label.text = "星　图 · 你走过的路"
+		map_scene_label.text = "星　图 | 你走过的路"
 		map_scene_label.add_theme_color_override(
 			"font_color",
 			Color(0.90, 0.86, 0.76, 0.56)
@@ -29998,7 +29998,7 @@ func _apply_preview_mode() -> void:
 		"detail_ui":
 			cover.visible = false
 			map_screen.visible = true
-			detail_name.text = "星球 · B-612 · 玫瑰"
+			detail_name.text = "星球 | B-612 | 玫瑰"
 			detail_text.text = "一朵玫瑰，把整颗星球变成了家。"
 			detail_screen.visible = true
 		"pointlighter":

@@ -1,7 +1,7 @@
 extends RefCounted
 
 
-const TITLE := "小王子 · 我的星球"
+const TITLE := "小王子 | 我的星球"
 
 
 const NODES := {
