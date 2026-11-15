@@ -1,0 +1,46 @@
+{
+	"description": "Dialogue choice text boxes. Edit in game with the 调字 button.",
+	"slots": [
+		{
+			"font_size": 22,
+			"height": 40.0,
+			"horizontal_alignment": 0,
+			"line_spacing": 0,
+			"vertical_alignment": 1,
+			"width": 385.0,
+			"x": 32.0,
+			"y": 7.6693115234375
+		},
+		{
+			"font_size": 22,
+			"height": 56.0,
+			"horizontal_alignment": 0,
+			"line_spacing": 0,
+			"vertical_alignment": 1,
+			"width": 385.0,
+			"x": 32.0,
+			"y": 17.7094116210938
+		},
+		{
+			"font_size": 22,
+			"height": 56.0,
+			"horizontal_alignment": 0,
+			"line_spacing": 0,
+			"vertical_alignment": 1,
+			"width": 385.0,
+			"x": 32.0,
+			"y": 7.0
+		},
+		{
+			"font_size": 22,
+			"height": 40.0,
+			"horizontal_alignment": 0,
+			"line_spacing": 0,
+			"vertical_alignment": 1,
+			"width": 385.0,
+			"x": 32.0,
+			"y": 7.0
+		}
+	],
+	"version": 7
+}

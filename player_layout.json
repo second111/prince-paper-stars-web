@@ -1,0 +1,1571 @@
+{
+	"base_lighting": 0.75,
+	"deleted_ids": [
+		"player_camping_lamp-08",
+		"player_camping_lamp-09",
+		"player_bench-10",
+		"player_picnic_blanket-08",
+		"player_bench-09",
+		"player_camping_lamp-11",
+		"player_cottage-05",
+		"player_tent-06",
+		"player_bench-07",
+		"player_picnic_blanket-04",
+		"player_camping_lamp-03",
+		"player_flowers-11",
+		"player_camping_lamp-10",
+		"player_picnic_blanket-09",
+		"player_picnic_basket-08",
+		"player_picnic_basket-06",
+		"player_tea_set-05",
+		"player_vase-10",
+		"player_picnic_blanket-07",
+		"player_camping_lamp-14",
+		"player_camping_lamp-13",
+		"player_camping_lamp-07",
+		"player_camping_lamp-06",
+		"player_bench-18",
+		"player_swing-21",
+		"player_mailbox-17",
+		"player_cottage-24",
+		"player_vase-15",
+		"player_picnic_blanket-12",
+		"player_camping_lamp-05",
+		"player_vase-11",
+		"player_vase-12",
+		"player_vase-13",
+		"player_mailbox-16",
+		"player_mailbox-18",
+		"player_picnic_blanket-13",
+		"player_bench-17",
+		"player_long_table-19",
+		"player_swing-20",
+		"player_tent-22",
+		"player_cottage-23",
+		"player_bench-25",
+		"player_long_table-26",
+		"player_swing-27",
+		"player_mailbox-28",
+		"player_flowers-29",
+		"player_flowers-30",
+		"player_vase-31",
+		"player_camping_lamp-32",
+		"player_picnic_blanket-33",
+		"player_bench-06",
+		"player_bread_plate-01",
+		"player_camping_lamp-02",
+		"player_vase-03",
+		"player_open_book-04",
+		"player_mailbox-05",
+		"player_bench-08",
+		"player_swing-09",
+		"player_long_table-10",
+		"player_bench-12",
+		"player_long_table-13",
+		"player_tent-14",
+		"player_cottage-15",
+		"player_picnic_blanket-18",
+		"player_bread_plate-copy-18",
+		"player_vase-05",
+		"player_tent-17",
+		"player_paper_boat-21",
+		"player_vase-08",
+		"player_tea_set-26",
+		"player_flowers-27",
+		"player_camping_lamp-28",
+		"player_bread_plate-29",
+		"player_star_rose_combo-31",
+		"player_camping_lamp-35",
+		"player_tea_set-19",
+		"player_picnic_basket-18",
+		"player_picnic_basket-23",
+		"player_star_merchant_ledger-35",
+		"player_short_hair_person-22",
+		"player_long_hair_person-21",
+		"player_bread_plate-25",
+		"player_bench-33",
+		"player_long_hair_person-31",
+		"player_short_hair_person-32",
+		"player_picnic_blanket-17",
+		"player_cottage-copy-36",
+		"player_star_king_throne-30",
+		"player_short_hair_person-36",
+		"player_vase-29",
+		"player_flowers-10",
+		"player_star_vain_petals-29",
+		"player_flowers-copy-30",
+		"player_flowers-14",
+		"player_flowers-copy-31",
+		"player_short_hair_person-35",
+		"player_picnic_blanket-36",
+		"player_long_table-16",
+		"player_bread_plate-03",
+		"player_picnic_basket-04",
+		"player_bread_plate-06",
+		"player_open_book-09",
+		"player_mailbox-11",
+		"player_swing-15",
+		"player_cottage-16",
+		"player_vase-copy-19",
+		"player_flowers-19",
+		"player_paper_boat-20",
+		"player_picnic_basket-22",
+		"player_picnic_blanket-24",
+		"player_star_king_banner-27",
+		"player_star_earth_wheat_bundle-28",
+		"player_star_vain_mirror-32",
+		"player_star_earth_fox-33",
+		"player_star_pointlighter_lamp-36",
+		"player_star_pointlighter_chair-37",
+		"player_star_rose_combo-36",
+		"player_camping_lamp-37",
+		"player_paper_boat-copy-38",
+		"player_prince_default",
+		"player_bench-34",
+		"player_long_hair_person-35",
+		"player_flowers-copy-32",
+		"player_flowers-copy-33",
+		"player_flowers-copy-34",
+		"player_flowers-copy-35",
+		"player_flowers-copy-36",
+		"player_flowers-copy-37",
+		"player_vase-32",
+		"player_mailbox-33",
+		"player_star_merchant_ledger-34",
+		"player_short_hair_person_avatar_intro",
+		"player_tea_set-36",
+		"player_open_book-37",
+		"player_picnic_basket-38",
+		"player_camping_lamp-39",
+		"player_long_table-40",
+		"player_camping_lamp-41",
+		"player_vase-42",
+		"player_mailbox-43",
+		"player_mailbox-44",
+		"player_bench-45",
+		"player_swing-46",
+		"player_bench-04",
+		"player_mailbox-15"
+	],
+	"earth_light_yaw": 14.0,
+	"light_strings": [
+		{
+			"brightness": 1.0,
+			"end": [
+				0.16566102206707,
+				1.96042096614838,
+				-0.981358349323273
+			],
+			"light_on": true,
+			"locked": false,
+			"sag": [
+				0.0315128564834595,
+				1.49956512451172,
+				-1.62397050857544
+			],
+			"start": [
+				0.034881666302681,
+				1.43858397006989,
+				-2.28575587272644
+			]
+		},
+		{
+			"brightness": 1.0,
+			"end": [
+				0.235255643725395,
+				2.17285871505737,
+				-0.340836256742477
+			],
+			"light_on": true,
+			"locked": false,
+			"sag": [
+				0.445707321166992,
+				1.97717237472534,
+				-0.116669468581676
+			],
+			"start": [
+				0.669457912445068,
+				1.97641539573669,
+				0.200401023030281
+			]
+		}
+	],
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/player/props/长发小人.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.01,
+			"id": "player_long_hair_person_avatar_intro",
+			"kind": "player_long_hair_person",
+			"label": "长发小人",
+			"layout_mode": "plane",
+			"locked": false,
+			"normal": [
+				0.486239612102509,
+				0.842847049236298,
+				-0.230607882142067
+			],
+			"placement_footprint": 0.3,
+			"placement_height_offset": -0.01,
+			"placement_plane_normal": [
+				0.486239612102509,
+				0.842847049236298,
+				-0.230607882142067
+			],
+			"position": [
+				1.54912626743317,
+				0.849926471710205,
+				-1.18157863616943
+			],
+			"root_radius": 0.849926471710205,
+			"scale": 0.8,
+			"selected_animation": "ambient_idle",
+			"support_height_offset": 0.0,
+			"surface_tilt": -1.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 111.915416958998
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.03,
+			"id": "player_prince_avatar_intro",
+			"kind": "player_prince",
+			"label": "小王子",
+			"layout_mode": "plane",
+			"locked": false,
+			"normal": [
+				0.496439427137375,
+				0.844598770141602,
+				-0.200501501560211
+			],
+			"placement_footprint": 0.3,
+			"placement_height_offset": -0.03,
+			"placement_plane_normal": [
+				0.496439427137375,
+				0.844598770141602,
+				-0.200501501560211
+			],
+			"position": [
+				1.67900800704956,
+				0.835868239402771,
+				-0.98298054933548
+			],
+			"root_radius": 0.835868239402771,
+			"scale": 0.7,
+			"selected_animation": "ambient_idle",
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 51.919531330943
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/长椅.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.16,
+			"id": "player_bench-03",
+			"kind": "player_bench",
+			"label": "长椅",
+			"layout_mode": "plane",
+			"locked": true,
+			"locked_ground_height_offset": -0.16,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.312214940786362,
+				0.945041298866272,
+				0.0970506370067596
+			],
+			"placement_footprint": 0.318,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.16,
+			"placement_plane_normal": [
+				0.312214940786362,
+				0.945041298866272,
+				0.0970506370067596
+			],
+			"position": [
+				0.988614201545715,
+				1.27999544143677,
+				-0.112574279308319
+			],
+			"root_radius": 1.27999544143677,
+			"scale": 0.4,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 95.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/长桌.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.2,
+			"id": "player_long_table-05",
+			"kind": "player_long_table",
+			"label": "长桌",
+			"layout_mode": "plane",
+			"locked": true,
+			"locked_ground_height_offset": -0.2,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.232683956623077,
+				0.957959592342377,
+				-0.167843922972679
+			],
+			"placement_footprint": 0.34,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.2,
+			"placement_plane_normal": [
+				0.232683956623077,
+				0.957959592342377,
+				-0.167843922972679
+			],
+			"position": [
+				0.888112902641296,
+				1.35650682449341,
+				-0.942366600036621
+			],
+			"root_radius": 1.35650682449341,
+			"scale": 0.35,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 8.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/茶具.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.09,
+			"id": "player_tea_set-06",
+			"kind": "player_tea_set",
+			"label": "茶具",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.09,
+			"locked_support_height_offset": -0.015,
+			"normal": [
+				0.199184253811836,
+				0.960939168930054,
+				-0.192149505019188
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.09,
+			"placement_plane_normal": [
+				0.199184253811836,
+				0.960939168930054,
+				-0.192149505019188
+			],
+			"position": [
+				0.784469127655029,
+				1.23259711265564,
+				-1.14375448226929
+			],
+			"root_radius": 1.23259711265564,
+			"scale": 0.4,
+			"support_height_offset": -0.015,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/翻开的书.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.075,
+			"id": "player_open_book-07",
+			"kind": "player_open_book",
+			"label": "翻开的书",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.075,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.334898620843887,
+				0.94005960226059,
+				0.0642725601792336
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.075,
+			"placement_plane_normal": [
+				0.334898620843887,
+				0.94005960226059,
+				0.0642725601792336
+			],
+			"position": [
+				1.16349720954895,
+				1.16590785980225,
+				-0.23785787820816
+			],
+			"root_radius": 1.16590785980225,
+			"scale": 0.35,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -12.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/面包盘.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.09,
+			"id": "player_bread_plate-08",
+			"kind": "player_bread_plate",
+			"label": "面包盘",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.09,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.241641402244568,
+				0.938653171062469,
+				-0.246048286557198
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.09,
+			"placement_plane_normal": [
+				0.241641402244568,
+				0.938653171062469,
+				-0.246048286557198
+			],
+			"position": [
+				0.907459080219269,
+				1.16261839866638,
+				-1.33203542232513
+			],
+			"root_radius": 1.16261839866638,
+			"scale": 0.45,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 8.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/野餐篮.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.08,
+			"id": "player_picnic_basket-09",
+			"kind": "player_picnic_basket",
+			"label": "野餐篮",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.08,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.261362850666046,
+				0.964433014392853,
+				0.0394765585660934
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.08,
+			"placement_plane_normal": [
+				0.261362850666046,
+				0.964433014392853,
+				0.0394765585660934
+			],
+			"position": [
+				0.784619331359863,
+				1.36214375495911,
+				-0.309783905744553
+			],
+			"root_radius": 1.36214375495911,
+			"scale": 0.3,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/野餐垫.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.18,
+			"id": "player_picnic_blanket-10",
+			"kind": "player_picnic_blanket",
+			"label": "野餐垫",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.18,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.253272980451584,
+				0.960809171199799,
+				-0.112687818706036
+			],
+			"placement_footprint": 0.324,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.18,
+			"placement_plane_normal": [
+				0.253272980451584,
+				0.960809171199799,
+				-0.112687818706036
+			],
+			"position": [
+				0.844396233558655,
+				1.39623165130615,
+				-0.736300587654114
+			],
+			"root_radius": 1.39623165130615,
+			"scale": 0.55,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 57.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/露营灯.glb",
+			"base_scale": 1.0,
+			"brightness": 1.0,
+			"ground_height_offset": -0.07,
+			"id": "player_camping_lamp-11",
+			"kind": "player_camping_lamp",
+			"label": "露营灯",
+			"layout_mode": "plane",
+			"light_offset": [
+				0.0,
+				0.284999996423721,
+				0.0450000017881393
+			],
+			"light_on": true,
+			"light_range": 1.0,
+			"locked": false,
+			"locked_ground_height_offset": -0.07,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.323015183210373,
+				0.908762753009796,
+				-0.26421856880188
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.07,
+			"placement_plane_normal": [
+				0.323015183210373,
+				0.908762753009796,
+				-0.26421856880188
+			],
+			"position": [
+				1.13185715675354,
+				1.11118817329407,
+				-1.28570401668549
+			],
+			"root_radius": 1.11118817329407,
+			"scale": 0.3,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/花瓶.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.0600000000000001,
+			"id": "player_vase-12",
+			"kind": "player_vase",
+			"label": "花瓶",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.0600000000000001,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.378719091415405,
+				0.911127209663391,
+				-0.162539705634117
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.0600000000000001,
+			"placement_plane_normal": [
+				0.378719091415405,
+				0.911127209663391,
+				-0.162539705634117
+			],
+			"position": [
+				1.2807492017746,
+				1.07540082931519,
+				-1.02093839645386
+			],
+			"root_radius": 1.07540082931519,
+			"scale": 0.35,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/花丛.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.06,
+			"id": "player_flowers-13",
+			"kind": "player_flowers",
+			"label": "花丛",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.06,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.45768877863884,
+				0.836371958255768,
+				-0.301666885614395
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.06,
+			"placement_plane_normal": [
+				0.45768877863884,
+				0.836371958255768,
+				-0.301666885614395
+			],
+			"position": [
+				1.33418428897858,
+				0.946818709373474,
+				-1.46285569667816
+			],
+			"root_radius": 0.946818709373474,
+			"scale": 1.0,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 20.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/信箱.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.12,
+			"id": "player_mailbox-16",
+			"kind": "player_mailbox",
+			"label": "信箱",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.12,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.226784482598305,
+				0.972954928874969,
+				-0.0439032800495625
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.12,
+			"placement_plane_normal": [
+				0.226784482598305,
+				0.972954928874969,
+				-0.0439032800495625
+			],
+			"position": [
+				0.565846085548401,
+				1.38857531547546,
+				-0.542113244533539
+			],
+			"root_radius": 1.38857531547546,
+			"scale": 0.4,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/纸船.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.08,
+			"id": "player_paper_boat-17",
+			"kind": "player_paper_boat",
+			"label": "纸船",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.08,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.181612253189087,
+				0.98161768913269,
+				0.0586834661662579
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.08,
+			"placement_plane_normal": [
+				0.181612253189087,
+				0.98161768913269,
+				0.0586834661662579
+			],
+			"position": [
+				1.37449419498444,
+				0.881954669952393,
+				1.0117814540863
+			],
+			"root_radius": 0.881954669952393,
+			"scale": 0.5,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 28.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/秋千.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.21,
+			"id": "player_swing-18",
+			"kind": "player_swing",
+			"label": "秋千",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.21,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.291119158267975,
+				0.956250131130219,
+				-0.0289028491824865
+			],
+			"placement_footprint": 0.34,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.21,
+			"placement_plane_normal": [
+				0.291119158267975,
+				0.956250131130219,
+				-0.0289028491824865
+			],
+			"position": [
+				0.914386510848999,
+				1.36151611804962,
+				-0.514952898025513
+			],
+			"root_radius": 1.36151611804962,
+			"scale": 0.45,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -61.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/小屋.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.13,
+			"id": "player_cottage-19",
+			"kind": "player_cottage",
+			"label": "小屋",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.13,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.160980209708214,
+				0.973951280117035,
+				-0.159700885415077
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.13,
+			"placement_plane_normal": [
+				0.160980209708214,
+				0.973951280117035,
+				-0.159700885415077
+			],
+			"position": [
+				0.262639403343201,
+				1.3888943195343,
+				-0.851829409599304
+			],
+			"root_radius": 1.3888943195343,
+			"scale": 1.2,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 90.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/帐篷.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.07,
+			"id": "player_tent-20",
+			"kind": "player_tent",
+			"label": "帐篷",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.07,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.243235573172569,
+				0.928091287612915,
+				-0.281927525997162
+			],
+			"placement_footprint": 0.34,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.07,
+			"placement_plane_normal": [
+				0.243235573172569,
+				0.928091287612915,
+				-0.281927525997162
+			],
+			"position": [
+				0.613750219345093,
+				1.15738701820374,
+				-1.70842278003693
+			],
+			"root_radius": 1.15738701820374,
+			"scale": 0.65,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 52.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_throne.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.04,
+			"id": "player_star_king_throne-21",
+			"kind": "player_star_king_throne",
+			"label": "王座",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.04,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.359283030033112,
+				0.929828763008118,
+				-0.0795878618955612
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.04,
+			"placement_plane_normal": [
+				0.359283030033112,
+				0.929828763008118,
+				-0.0795878618955612
+			],
+			"position": [
+				1.26056826114655,
+				1.08703887462616,
+				-0.797691583633423
+			],
+			"root_radius": 1.08703887462616,
+			"scale": 0.65,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 105.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/glass_dome.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.17,
+			"id": "player_star_rose_combo-22",
+			"kind": "player_star_rose_combo",
+			"label": "玫瑰 · 底座 · 玻璃罩",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.17,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.357372313737869,
+				0.929018616676331,
+				0.0959659889340401
+			],
+			"placement_footprint": 0.34,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.17,
+			"placement_plane_normal": [
+				0.357372313737869,
+				0.929018616676331,
+				0.0959659889340401
+			],
+			"position": [
+				1.28482151031494,
+				1.20442855358124,
+				0.0300003569573164
+			],
+			"root_radius": 1.20442855358124,
+			"scale": 0.3,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_banners.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.15,
+			"id": "player_star_king_banner-23",
+			"kind": "player_star_king_banner",
+			"label": "旗帜",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.15,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.393629729747772,
+				0.919230818748474,
+				-0.0083801569417119
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.15,
+			"placement_plane_normal": [
+				0.393629729747772,
+				0.919230818748474,
+				-0.0083801569417119
+			],
+			"position": [
+				1.43289232254028,
+				1.11615860462189,
+				-0.399461090564728
+			],
+			"root_radius": 1.11615860462189,
+			"scale": 1.0,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.03,
+			"id": "player_star_vain_petals-24",
+			"kind": "player_star_vain_petals",
+			"label": "花瓣堆",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.03,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.361712127923965,
+				0.932258903980255,
+				0.00760720483958721
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.03,
+			"placement_plane_normal": [
+				0.361712127923965,
+				0.932258903980255,
+				0.00760720483958721
+			],
+			"position": [
+				1.24005448818207,
+				1.08402442932129,
+				-0.507804036140442
+			],
+			"root_radius": 1.08402442932129,
+			"scale": 0.5,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 10.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/ornate_mirror.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.15,
+			"id": "player_star_vain_mirror-25",
+			"kind": "player_star_vain_mirror",
+			"label": "镜子",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.15,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.370824247598648,
+				0.928512096405029,
+				-0.0188355948776007
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.15,
+			"placement_plane_normal": [
+				0.370824247598648,
+				0.928512096405029,
+				-0.0188355948776007
+			],
+			"position": [
+				1.39505052566528,
+				1.14879596233368,
+				-0.517883896827698
+			],
+			"root_radius": 1.14879596233368,
+			"scale": 0.6,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/quaternius_fox_animated.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.0600000000000001,
+			"id": "player_star_earth_fox-26",
+			"kind": "player_star_earth_fox",
+			"label": "狐狸",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.0600000000000001,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.326468378305435,
+				0.90308940410614,
+				-0.279012560844421
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.0600000000000001,
+			"placement_plane_normal": [
+				0.326468378305435,
+				0.90308940410614,
+				-0.279012560844421
+			],
+			"position": [
+				1.03816866874695,
+				1.06240236759186,
+				-1.47745859622955
+			],
+			"root_radius": 1.06240236759186,
+			"scale": 0.35,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -12.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_bundle.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.09,
+			"id": "player_star_earth_wheat_bundle-27",
+			"kind": "player_star_earth_wheat_bundle",
+			"label": "一束麦子",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.09,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.419323533773422,
+				0.888802409172058,
+				0.184927135705948
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.09,
+			"placement_plane_normal": [
+				0.419323533773422,
+				0.888802409172058,
+				0.184927135705948
+			],
+			"position": [
+				1.31019079685211,
+				1.07682633399963,
+				0.270386874675751
+			],
+			"root_radius": 1.07682633399963,
+			"scale": 0.45,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 8.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/ledger.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.08,
+			"id": "player_star_merchant_ledger-28",
+			"kind": "player_star_merchant_ledger",
+			"label": "厚账簿",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.08,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.346474856138229,
+				0.917449831962585,
+				-0.195553198456764
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.08,
+			"placement_plane_normal": [
+				0.346474856138229,
+				0.917449831962585,
+				-0.195553198456764
+			],
+			"position": [
+				1.19286572933197,
+				1.11522316932678,
+				-1.13907647132874
+			],
+			"root_radius": 1.11522316932678,
+			"scale": 0.3,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/lamp.glb",
+			"base_scale": 1.0,
+			"brightness": 1.0,
+			"ground_height_offset": -0.11,
+			"id": "player_star_pointlighter_lamp-29",
+			"kind": "player_star_pointlighter_lamp",
+			"label": "路灯",
+			"layout_mode": "plane",
+			"light_offset": [
+				0.0,
+				0.560000002384186,
+				0.115000002086163
+			],
+			"light_on": true,
+			"light_range": 1.0,
+			"locked": false,
+			"locked_ground_height_offset": -0.11,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.163681730628014,
+				0.980517745018005,
+				0.108596928417683
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.11,
+			"placement_plane_normal": [
+				0.163681730628014,
+				0.980517745018005,
+				0.108596928417683
+			],
+			"position": [
+				0.459528118371964,
+				1.40598583221436,
+				-0.2738256752491
+			],
+			"root_radius": 1.40598583221436,
+			"scale": 1.0,
+			"support_height_offset": 0.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/chair.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.16,
+			"id": "player_star_pointlighter_chair-30",
+			"kind": "player_star_pointlighter_chair",
+			"label": "椅子",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.16,
+			"locked_support_height_offset": 0.0,
+			"normal": [
+				0.322133660316467,
+				0.945524215698242,
+				0.0470529086887836
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.16,
+			"placement_plane_normal": [
+				0.322133660316467,
+				0.945524215698242,
+				0.0470529086887836
+			],
+			"position": [
+				1.37632179260254,
+				1.16996121406555,
+				-0.180462390184402
+			],
+			"root_radius": 1.16996121406555,
+			"scale": 0.35,
+			"support_height_offset": 0.0,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 8.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/花瓶.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.0600000000000001,
+			"id": "player_vase-28",
+			"kind": "player_vase",
+			"label": "花瓶",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.0600000000000001,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.441564738750458,
+				0.890144169330597,
+				-0.112533926963806
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.0600000000000001,
+			"placement_plane_normal": [
+				0.441564738750458,
+				0.890144169330597,
+				-0.112533926963806
+			],
+			"position": [
+				1.54458498954773,
+				1.02208614349365,
+				-0.756509184837341
+			],
+			"root_radius": 1.02208614349365,
+			"scale": 0.35,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/野餐篮.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.08,
+			"id": "player_picnic_basket-29",
+			"kind": "player_picnic_basket",
+			"label": "野餐篮",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.08,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.462008953094482,
+				0.864416062831879,
+				-0.198324456810951
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.08,
+			"placement_plane_normal": [
+				0.462008953094482,
+				0.864416062831879,
+				-0.198324456810951
+			],
+			"position": [
+				1.52105927467346,
+				0.972799301147461,
+				-1.00992918014526
+			],
+			"root_radius": 0.972799301147461,
+			"scale": 0.3,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/面包盘.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.09,
+			"id": "player_bread_plate-30",
+			"kind": "player_bread_plate",
+			"label": "面包盘",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.09,
+			"locked_support_height_offset": -0.02,
+			"normal": [
+				0.232683941721916,
+				0.957959651947021,
+				-0.167843952775002
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.02,
+			"placement_plane_normal": [
+				0.232683941721916,
+				0.957959651947021,
+				-0.167843952775002
+			],
+			"placement_support_id": "player_long_table-05",
+			"placement_support_normal": [
+				0.232683941721916,
+				0.957959651947021,
+				-0.167843952775002
+			],
+			"position": [
+				0.905508697032928,
+				1.31629633903503,
+				-0.95054167509079
+			],
+			"root_radius": 1.31629633903503,
+			"scale": 0.45,
+			"support_height_offset": -0.02,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 8.0
+		},
+		{
+			"asset_path": "res://assets/3d/player/props/茶具.glb",
+			"base_scale": 1.0,
+			"ground_height_offset": -0.09,
+			"id": "player_tea_set-31",
+			"kind": "player_tea_set",
+			"label": "茶具",
+			"layout_mode": "plane",
+			"locked": false,
+			"locked_ground_height_offset": -0.09,
+			"locked_support_height_offset": -0.015,
+			"normal": [
+				0.440953224897385,
+				0.895919859409332,
+				-0.0537391118705273
+			],
+			"placement_footprint": 0.3,
+			"placement_height_locked": true,
+			"placement_height_offset": -0.09,
+			"placement_plane_normal": [
+				0.440953224897385,
+				0.895919859409332,
+				-0.0537391118705273
+			],
+			"position": [
+				1.5629655122757,
+				1.00661945343018,
+				-0.536437630653381
+			],
+			"root_radius": 1.00661945343018,
+			"scale": 0.4,
+			"support_height_offset": -0.015,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		}
+	],
+	"player_height_schema": 2,
+	"player_item_height_lock_version": 1,
+	"player_item_heights": {
+		"player_bench": -0.16,
+		"player_bread_plate": -0.09,
+		"player_camping_lamp": -0.07,
+		"player_cottage": -0.13,
+		"player_flowers": -0.06,
+		"player_long_hair_person": -0.01,
+		"player_long_table": -0.2,
+		"player_mailbox": -0.12,
+		"player_open_book": -0.075,
+		"player_paper_boat": -0.08,
+		"player_picnic_basket": -0.08,
+		"player_picnic_blanket": -0.18,
+		"player_prince": -0.03,
+		"player_short_hair_person": -0.03,
+		"player_star_earth_fox": -0.0600000000000001,
+		"player_star_earth_wheat_bundle": -0.09,
+		"player_star_king_banner": -0.15,
+		"player_star_king_throne": -0.04,
+		"player_star_merchant_ledger": -0.08,
+		"player_star_pointlighter_chair": -0.16,
+		"player_star_pointlighter_lamp": -0.11,
+		"player_star_rose_combo": -0.17,
+		"player_star_vain_mirror": -0.15,
+		"player_star_vain_petals": -0.03,
+		"player_swing": -0.21,
+		"player_tea_set": -0.09,
+		"player_tent": -0.07,
+		"player_vase": -0.0600000000000001
+	},
+	"player_item_heights_locked": true,
+	"player_item_scales": {
+		"player_bench": 0.4,
+		"player_bread_plate": 0.45,
+		"player_camping_lamp": 0.3,
+		"player_cottage": 1.2,
+		"player_flowers": 1.0,
+		"player_long_hair_person": 0.8,
+		"player_long_table": 0.35,
+		"player_mailbox": 0.4,
+		"player_open_book": 0.35,
+		"player_paper_boat": 0.5,
+		"player_picnic_basket": 0.3,
+		"player_picnic_blanket": 0.55,
+		"player_prince": 0.7,
+		"player_short_hair_person": 0.75,
+		"player_star_earth_fox": 0.35,
+		"player_star_earth_wheat_bundle": 0.45,
+		"player_star_king_banner": 1.0,
+		"player_star_king_throne": 0.65,
+		"player_star_merchant_ledger": 0.3,
+		"player_star_pointlighter_chair": 0.35,
+		"player_star_pointlighter_lamp": 1.0,
+		"player_star_rose_combo": 0.3,
+		"player_star_vain_mirror": 0.6,
+		"player_star_vain_petals": 0.5,
+		"player_swing": 0.45,
+		"player_tea_set": 0.4,
+		"player_tent": 0.65,
+		"player_vase": 0.35
+	},
+	"player_item_support_heights": {
+		"player_bread_plate": -0.02,
+		"player_camping_lamp": -0.02,
+		"player_long_hair_person": 0.0,
+		"player_open_book": -0.02,
+		"player_picnic_basket": -0.02,
+		"player_prince": 0.0,
+		"player_short_hair_person": 0.0,
+		"player_tea_set": -0.015,
+		"player_vase": -0.02
+	},
+	"player_item_support_heights_locked": true,
+	"player_night": true,
+	"player_seat_pose_offsets": {
+		"player_long_hair_person::player_bench": {
+			"height_offset": -0.20000097155571,
+			"position": [
+				0.21152538061142,
+				0.0113329887390137,
+				0.044427752494812
+			],
+			"yaw_delta": -89.0
+		},
+		"player_long_hair_person::player_star_king_throne": {
+			"height_offset": -0.176322355866432,
+			"position": [
+				-0.0137299299240112,
+				0.0684776306152344,
+				-0.00440287590026855
+			],
+			"yaw_delta": -83.0
+		},
+		"player_long_hair_person::player_star_pointlighter_chair": {
+			"height_offset": -0.200000554323196,
+			"position": [
+				0.00567245483398438,
+				0.0311994552612305,
+				-0.107489466667175
+			],
+			"yaw_delta": -90.0
+		},
+		"player_long_hair_person::player_swing": {
+			"height_offset": -0.319997757673264,
+			"position": [
+				-0.163506984710693,
+				0.0122025012969971,
+				-0.0380251407623291
+			],
+			"yaw_delta": -94.0
+		},
+		"player_prince::player_bench": {
+			"height_offset": -0.17000076174736,
+			"position": [
+				-0.149246215820313,
+				0.0413331985473633,
+				0.0624030828475952
+			],
+			"yaw_delta": -75.0
+		},
+		"player_prince::player_star_king_throne": {
+			"height_offset": -0.152482405304909,
+			"position": [
+				-0.0157340168952942,
+				0.0923175811767578,
+				-0.017362117767334
+			],
+			"yaw_delta": -83.0
+		},
+		"player_prince::player_star_pointlighter_chair": {
+			"height_offset": -0.132323533296585,
+			"position": [
+				0.0328662395477295,
+				0.0988764762878418,
+				-0.0107431411743164
+			],
+			"yaw_delta": -89.0
+		},
+		"player_prince::player_swing": {
+			"height_offset": -0.299999207258224,
+			"position": [
+				0.14880833029747,
+				0.0322010517120361,
+				-0.0657351016998291
+			],
+			"yaw_delta": -89.0
+		},
+		"player_short_hair_person::player_bench": {
+			"height_offset": -0.222210377454758,
+			"position": [
+				0.213984608650208,
+				-0.0108764171600342,
+				0.0164145231246948
+			],
+			"yaw_delta": -90.0
+		},
+		"player_short_hair_person::player_star_king_throne": {
+			"height_offset": -0.170000687241554,
+			"position": [
+				0.00000059604644775,
+				0.0747992992401123,
+				-0.00000452995300292
+			],
+			"yaw_delta": -87.0
+		},
+		"player_short_hair_person::player_star_pointlighter_chair": {
+			"height_offset": -0.160000592470169,
+			"position": [
+				0.0198473930358887,
+				0.0711994171142578,
+				0.0311644077301025
+			],
+			"yaw_delta": -88.0
+		},
+		"player_short_hair_person::player_swing": {
+			"height_offset": -0.27999946475029,
+			"position": [
+				-0.167198657989502,
+				0.0522007942199707,
+				-0.0253185033798218
+			],
+			"yaw_delta": -85.0
+		}
+	},
+	"player_seat_pose_schema": 1,
+	"player_sitting_height_locks": {
+		"player_long_hair_person::player_bench": true,
+		"player_long_hair_person::player_star_king_throne": true,
+		"player_long_hair_person::player_star_pointlighter_chair": true,
+		"player_long_hair_person::player_swing": true,
+		"player_prince::player_bench": true,
+		"player_prince::player_star_king_throne": true,
+		"player_prince::player_star_pointlighter_chair": true,
+		"player_prince::player_swing": true,
+		"player_short_hair_person::player_bench": true,
+		"player_short_hair_person::player_star_king_throne": true,
+		"player_short_hair_person::player_star_pointlighter_chair": true,
+		"player_short_hair_person::player_swing": true
+	},
+	"player_standing_height_locks": {
+		"player_long_hair_person": true,
+		"player_prince": true,
+		"player_short_hair_person": true
+	},
+	"scene_slug": "player",
+	"version": 3,
+	"wheat_brightness": 0.85,
+	"wheat_saturation": 0.85,
+	"wheat_tone_version": 2
+}

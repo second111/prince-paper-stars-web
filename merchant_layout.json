@@ -1,0 +1,1140 @@
+{
+	"base_lighting": 0.8,
+	"deleted_ids": [
+		"short_cabinet-copy-14",
+		"merchant_abacus_bead-14",
+		"king_light-20",
+		"ledger-copy-39",
+		"merchant_open_scroll-19",
+		"merchant_short_scroll-18",
+		"merchant_tall_scroll-20",
+		"open_scroll-copy-68"
+	],
+	"earth_light_yaw": 34.0,
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/merchant/tall_tower.glb",
+			"base_scale": 1.03431614632787,
+			"id": "merchant_tall_tower-01",
+			"kind": "tall_tower",
+			"label": "高塔",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.468106240034103,
+				0.877289712429047,
+				0.106015764176846
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": -7.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 51.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_tower.glb",
+			"base_scale": 1.0573158296601,
+			"id": "merchant_short_tower-02",
+			"kind": "short_tower",
+			"label": "矮塔",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.484170705080032,
+				0.830121219158173,
+				0.27654567360878
+			],
+			"root_radius": 2.83,
+			"scale": 0.7,
+			"surface_tilt": -4.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 8.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/filing_cabinet.glb",
+			"base_scale": 0.8,
+			"id": "merchant_filing_cabinet-03",
+			"kind": "filing_cabinet",
+			"label": "档案柜",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.322573930025101,
+				0.94653844833374,
+				0.00332063180394471
+			],
+			"root_radius": 2.67,
+			"scale": 2.2,
+			"surface_tilt": 8.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -122.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/safe.glb",
+			"base_scale": 0.76,
+			"id": "merchant_safe-04",
+			"kind": "safe",
+			"label": "保险箱",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.371181130409241,
+				0.918908178806305,
+				-0.133537963032722
+			],
+			"root_radius": 2.88,
+			"scale": 2.05,
+			"surface_tilt": -7.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -65.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/abacus.glb",
+			"base_scale": 0.78,
+			"id": "merchant_abacus-05",
+			"kind": "abacus",
+			"label": "算盘",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0134882275015116,
+				0.995668649673462,
+				-0.0919893383979797
+			],
+			"root_radius": 2.78,
+			"scale": 2.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -95.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/ledger.glb",
+			"base_scale": 0.688493560496916,
+			"id": "merchant_ledger-06",
+			"kind": "ledger",
+			"label": "账簿",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.19247180223465,
+				0.923809945583344,
+				0.330952912569046
+			],
+			"root_radius": 2.81,
+			"scale": 1.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_tag.glb",
+			"base_scale": 0.491646944777538,
+			"id": "merchant_star_tag-07",
+			"kind": "star_tag",
+			"label": "星星标签",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.252625584602356,
+				0.967431783676147,
+				0.0160042867064476
+			],
+			"root_radius": 3.32,
+			"scale": 0.75,
+			"surface_tilt": 1.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -22.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/square_lamp.glb",
+			"base_scale": 0.600473090356004,
+			"brightness": 0.7,
+			"id": "merchant_square_lamp-08",
+			"kind": "square_lamp",
+			"label": "小方灯",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.335999995470047,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.154124677181244,
+				0.920262217521667,
+				0.35967081785202
+			],
+			"root_radius": 3.41,
+			"scale": 0.65,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 13.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_lamp.glb",
+			"base_scale": 0.659750936581483,
+			"brightness": 0.4,
+			"id": "merchant_star_lamp-09",
+			"kind": "star_lamp",
+			"label": "星星灯",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.407999992370605,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.258205205202103,
+				0.960269808769226,
+				0.105886526405811
+			],
+			"root_radius": 4.71,
+			"scale": 0.45,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 27.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_cabinet.glb",
+			"base_scale": 0.855205979096376,
+			"id": "merchant_short_cabinet-10",
+			"kind": "short_cabinet",
+			"label": "矮柜",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.392931401729584,
+				0.899473786354065,
+				0.191185429692268
+			],
+			"root_radius": 2.84,
+			"scale": 1.15,
+			"surface_tilt": -1.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 43.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "merchant_round_tree-11",
+			"kind": "round_tree",
+			"label": "圆冠树",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.507965683937073,
+				0.813649833202362,
+				-0.282745242118835
+			],
+			"root_radius": 2.82,
+			"scale": 2.6,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 33.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "merchant_pine_tree-12",
+			"kind": "pine_tree",
+			"label": "针叶树",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.33290708065033,
+				0.832826316356659,
+				-0.442236661911011
+			],
+			"root_radius": 2.88,
+			"scale": 2.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.426302493075304,
+			"id": "merchant_grass-13",
+			"kind": "grass",
+			"label": "草丛（点灯人）",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.338950872421265,
+				0.249228566884995,
+				0.907192051410675
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/mid_rope.glb",
+			"base_scale": 0.516804031617144,
+			"id": "merchant_mid_rope-14",
+			"kind": "mid_rope",
+			"label": "中绳",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.229950979351997,
+				0.958366572856903,
+				0.169281259179115
+			],
+			"root_radius": 4.68,
+			"scale": 1.75,
+			"surface_tilt": 13.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 73.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_rope.glb",
+			"base_scale": 0.450014645337841,
+			"id": "merchant_short_rope-15",
+			"kind": "short_rope",
+			"label": "短绳",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.257007479667664,
+				0.960166990756989,
+				0.109665587544441
+			],
+			"root_radius": 4.99,
+			"scale": 1.45,
+			"surface_tilt": 14.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -97.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/long_hanging_rope.glb",
+			"base_scale": 0.633854681573466,
+			"id": "merchant_long_hanging_rope-16",
+			"kind": "long_hanging_rope",
+			"label": "吊绳长",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.158590286970139,
+				0.987341225147247,
+				-0.00254522613249719
+			],
+			"root_radius": 4.23,
+			"scale": 2.1,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 24.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 1.0,
+			"glow_point": true,
+			"id": "king_light-17",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"locked": false,
+			"normal": [
+				0.299940019845963,
+				0.799840033054352,
+				0.519895970821381
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/draped_scroll.glb",
+			"base_scale": 1.2087929080519,
+			"id": "merchant_draped_scroll-21",
+			"kind": "draped_scroll",
+			"label": "垂落卷轴",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.298474788665771,
+				0.884496986865997,
+				0.358577638864517
+			],
+			"root_radius": 2.88,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -29.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/stylized_character_rigged.glb",
+			"base_scale": 0.76368473024539,
+			"id": "merchant_merchant_character-22",
+			"kind": "merchant_character",
+			"label": "商人",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.15508346259594,
+				0.986059546470642,
+				0.0602969378232956
+			],
+			"root_radius": 2.86,
+			"scale": 1.8,
+			"selected_animation": "fold_arms_001",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -59.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 0.700587789638457,
+			"id": "merchant_prince_character-23",
+			"kind": "prince_character",
+			"label": "小王子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0342605300247669,
+				0.93195766210556,
+				0.360944747924805
+			],
+			"root_radius": 2.89,
+			"scale": 1.15,
+			"selected_animation": "ambient_idle",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 108.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_scroll.glb",
+			"base_scale": 0.689888613044439,
+			"id": "merchant_short_scroll-17",
+			"kind": "short_scroll",
+			"label": "短卷轴",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.316784977912903,
+				0.940869331359863,
+				-0.120051026344299
+			],
+			"root_radius": 4.42,
+			"scale": 1.0,
+			"surface_tilt": -27.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 31.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/open_scroll.glb",
+			"base_scale": 0.796077513753736,
+			"id": "merchant_open_scroll-18",
+			"kind": "open_scroll",
+			"label": "翻开的卷轴",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.284442901611328,
+				0.903432011604309,
+				0.320784717798233
+			],
+			"root_radius": 2.82,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -38.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_scroll.glb",
+			"base_scale": 0.875920050899665,
+			"id": "merchant_tall_scroll-19",
+			"kind": "tall_scroll",
+			"label": "长卷轴",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.368698805570602,
+				0.921663165092468,
+				0.120822921395302
+			],
+			"root_radius": 2.8,
+			"scale": 0.7,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -19.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/ledger.glb",
+			"base_scale": 0.688493560496916,
+			"id": "ledger-copy-15",
+			"kind": "ledger",
+			"label": "账簿 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.38911634683609,
+				0.90512090921402,
+				0.171302974224091
+			],
+			"root_radius": 3.75,
+			"scale": 0.75,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -4.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_lamp.glb",
+			"base_scale": 0.659750936581483,
+			"brightness": 0.35,
+			"id": "star_lamp-copy-18",
+			"kind": "star_lamp",
+			"label": "星星灯 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.407999992370605,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.161480695009232,
+				0.986872553825378,
+				0.00256414501927793
+			],
+			"root_radius": 3.94,
+			"scale": 0.5,
+			"surface_tilt": -3.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -11.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/long_hanging_rope.glb",
+			"base_scale": 0.633854681573466,
+			"id": "long_hanging_rope-copy-19",
+			"kind": "long_hanging_rope",
+			"label": "吊绳长 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.174030050635338,
+				0.984640121459961,
+				0.0140542751178145
+			],
+			"root_radius": 4.23,
+			"scale": 2.1,
+			"surface_tilt": -7.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -63.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_lamp.glb",
+			"base_scale": 0.659750936581483,
+			"brightness": 0.25,
+			"id": "star_lamp-copy-20",
+			"kind": "star_lamp",
+			"label": "星星灯 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.407999992370605,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.173836499452591,
+				0.984644532203674,
+				0.0160024631768465
+			],
+			"root_radius": 3.97,
+			"scale": 0.45,
+			"surface_tilt": -1.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_lamp.glb",
+			"base_scale": 0.659750936581483,
+			"brightness": 0.5,
+			"id": "star_lamp-copy-21",
+			"kind": "star_lamp",
+			"label": "星星灯 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.407999992370605,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.229331105947495,
+				0.958305418491364,
+				0.170464232563972
+			],
+			"root_radius": 4.42,
+			"scale": 0.45,
+			"surface_tilt": -1.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -13.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_tower.glb",
+			"base_scale": 1.03431614632787,
+			"id": "tall_tower-copy-22",
+			"kind": "tall_tower",
+			"label": "高塔 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.534106612205505,
+				0.844468355178833,
+				-0.040043119341135
+			],
+			"root_radius": 2.79,
+			"scale": 1.35,
+			"surface_tilt": 7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 56.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_tower.glb",
+			"base_scale": 1.0573158296601,
+			"id": "short_tower-copy-23",
+			"kind": "short_tower",
+			"label": "矮塔 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.549831807613373,
+				0.824616074562073,
+				0.13301619887352
+			],
+			"root_radius": 2.71,
+			"scale": 0.8,
+			"surface_tilt": -1.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 85.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/ledger.glb",
+			"base_scale": 0.688493560496916,
+			"id": "ledger-copy-24",
+			"kind": "ledger",
+			"label": "账簿 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0711091235280037,
+				0.936862826347351,
+				-0.342390954494476
+			],
+			"root_radius": 2.81,
+			"scale": 2.2,
+			"surface_tilt": -2.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 80.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/ledger.glb",
+			"base_scale": 0.688493560496916,
+			"id": "ledger-copy-25",
+			"kind": "ledger",
+			"label": "账簿 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.00714611541479826,
+				0.957328259944916,
+				-0.288914412260056
+			],
+			"root_radius": 3.68,
+			"scale": 2.15,
+			"surface_tilt": -2.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -91.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_tower.glb",
+			"base_scale": 1.03431614632787,
+			"id": "tall_tower-copy-26",
+			"kind": "tall_tower",
+			"label": "高塔 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.181886196136475,
+				0.935290515422821,
+				-0.303560614585876
+			],
+			"root_radius": 2.79,
+			"scale": 1.45,
+			"surface_tilt": 2.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 1.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-27",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.308153718709946,
+				0.897379159927368,
+				-0.315835297107697
+			],
+			"root_radius": 2.82,
+			"scale": 2.6,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 6.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-28",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.573096990585327,
+				0.808908581733704,
+				-0.131250962615013
+			],
+			"root_radius": 2.7,
+			"scale": 2.0,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "pine_tree-copy-29",
+			"kind": "pine_tree",
+			"label": "针叶树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.318755000829697,
+				0.779204130172729,
+				-0.539663076400757
+			],
+			"root_radius": 2.78,
+			"scale": 2.85,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-30",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0406804271042347,
+				0.795172989368439,
+				-0.605016589164734
+			],
+			"root_radius": 2.96,
+			"scale": 3.0,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -7.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-31",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.109940961003304,
+				0.81466269493103,
+				-0.569418787956238
+			],
+			"root_radius": 2.74,
+			"scale": 3.0,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -126.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_tag.glb",
+			"base_scale": 0.491646944777538,
+			"id": "star_tag-copy-132",
+			"kind": "star_tag",
+			"label": "星星标签 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.261804968118668,
+				0.96465140581131,
+				0.0300962161272764
+			],
+			"root_radius": 3.32,
+			"scale": 0.75,
+			"surface_tilt": 2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -16.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/mid_rope.glb",
+			"base_scale": 0.516804031617144,
+			"id": "mid_rope-copy-34",
+			"kind": "mid_rope",
+			"label": "中绳 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.332224071025848,
+				0.942909777164459,
+				0.0234167389571667
+			],
+			"root_radius": 4.52,
+			"scale": 1.75,
+			"surface_tilt": -22.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 58.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_lamp.glb",
+			"base_scale": 0.659750936581483,
+			"brightness": 0.4,
+			"id": "star_lamp-copy-35",
+			"kind": "star_lamp",
+			"label": "星星灯 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.407999992370605,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.332095086574554,
+				0.943045616149902,
+				0.0194397494196892
+			],
+			"root_radius": 4.24,
+			"scale": 0.45,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 10.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_rope.glb",
+			"base_scale": 0.450014645337841,
+			"id": "short_rope-copy-36",
+			"kind": "short_rope",
+			"label": "短绳 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.052321694791317,
+				0.998550355434418,
+				0.0126332007348537
+			],
+			"root_radius": 5.06,
+			"scale": 1.45,
+			"surface_tilt": -1.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -43.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_lamp.glb",
+			"base_scale": 0.659750936581483,
+			"brightness": 0.25,
+			"id": "star_lamp-copy-37",
+			"kind": "star_lamp",
+			"label": "星星灯 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.407999992370605,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.0516988895833492,
+				0.998534858226776,
+				0.015981737524271
+			],
+			"root_radius": 4.8,
+			"scale": 0.45,
+			"surface_tilt": -3.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 7.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/star_tag.glb",
+			"base_scale": 0.491646944777538,
+			"id": "star_tag-copy-38",
+			"kind": "star_tag",
+			"label": "星星标签 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.442583739757538,
+				0.863672256469727,
+				0.241225704550743
+			],
+			"root_radius": 3.75,
+			"scale": 0.55,
+			"surface_tilt": -29.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -33.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.3,
+			"glow_point": true,
+			"id": "king_light-40",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.435834169387817,
+				0.894988000392914,
+				0.0951058492064476
+			],
+			"root_radius": 3.6,
+			"scale": 0.85,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.3,
+			"glow_point": true,
+			"id": "king_light-copy-41",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.468719244003296,
+				0.841916799545288,
+				0.267354607582092
+			],
+			"root_radius": 3.03,
+			"scale": 0.85,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_scroll.glb",
+			"base_scale": 0.875920050899665,
+			"id": "tall_scroll-copy-46",
+			"kind": "tall_scroll",
+			"label": "长卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.407623708248138,
+				0.900215208530426,
+				0.153152212500572
+			],
+			"root_radius": 2.8,
+			"scale": 0.55,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 36.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_scroll.glb",
+			"base_scale": 0.875920050899665,
+			"id": "tall_scroll-copy-47",
+			"kind": "tall_scroll",
+			"label": "长卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.307286888360977,
+				0.949373245239258,
+				0.0653091743588448
+			],
+			"root_radius": 3.36,
+			"scale": 0.5,
+			"surface_tilt": -5.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -5.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_scroll.glb",
+			"base_scale": 0.875920050899665,
+			"id": "tall_scroll-copy-48",
+			"kind": "tall_scroll",
+			"label": "长卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.282946944236755,
+				0.956381678581238,
+				0.0726300403475761
+			],
+			"root_radius": 3.36,
+			"scale": 0.4,
+			"surface_tilt": -15.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_scroll.glb",
+			"base_scale": 0.689888613044439,
+			"id": "short_scroll-copy-49",
+			"kind": "short_scroll",
+			"label": "短卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.506224453449249,
+				0.772861480712891,
+				0.382651209831238
+			],
+			"root_radius": 2.76,
+			"scale": 0.65,
+			"surface_tilt": -27.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -40.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/short_scroll.glb",
+			"base_scale": 0.689888613044439,
+			"id": "short_scroll-copy-50",
+			"kind": "short_scroll",
+			"label": "短卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.135203897953033,
+				0.899879515171051,
+				0.414652645587921
+			],
+			"root_radius": 3.44,
+			"scale": 0.4,
+			"surface_tilt": -38.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 4.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_scroll.glb",
+			"base_scale": 0.875920050899665,
+			"id": "tall_scroll-copy-66",
+			"kind": "tall_scroll",
+			"label": "长卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.22284260392189,
+				0.974072277545929,
+				-0.0390441529452801
+			],
+			"root_radius": 2.93,
+			"scale": 0.9,
+			"surface_tilt": -23.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -15.0
+		},
+		{
+			"asset_path": "res://assets/3d/merchant/tall_scroll.glb",
+			"base_scale": 0.875920050899665,
+			"id": "tall_scroll-copy-67",
+			"kind": "tall_scroll",
+			"label": "长卷轴 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.265813380479813,
+				0.963246524333954,
+				-0.0387221686542034
+			],
+			"root_radius": 2.93,
+			"scale": 0.55,
+			"surface_tilt": -22.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -39.0
+		}
+	],
+	"version": 3,
+	"wheat_brightness": 0.88,
+	"wheat_saturation": 0.82,
+	"wheat_tone_version": 2
+}

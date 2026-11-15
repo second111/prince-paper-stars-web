@@ -1,0 +1,118 @@
+{
+	"description": "Global UI positions and sizes edited in game with the 界面 button.",
+	"elements": {
+		"hud.title.kicker": {
+			"font_size": 13.0,
+			"height": 29.677375793457,
+			"width": 296.6611328125,
+			"x": 281.3515625,
+			"y": 72.1124649047852
+		},
+		"hud.title.name": {
+			"font_size": 32.0,
+			"height": 47.0,
+			"width": 158.167358398438,
+			"x": 93.9929962158203,
+			"y": 59.2824554443359
+		},
+		"map.planet.fox.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 239.510498046875,
+			"y": 258.395568847656
+		},
+		"map.planet.fox.tag_text": {
+			"font_size": 13.0,
+			"height": 20.3386840820313,
+			"width": 92.0250854492188,
+			"x": 241.518798828125,
+			"y": 262.065002441406
+		},
+		"map.planet.king.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 211.393310546875,
+			"y": 235.580993652344
+		},
+		"map.planet.king.tag_text": {
+			"font_size": 13.0,
+			"height": 27.0,
+			"width": 86.0,
+			"x": 209.384887695313,
+			"y": 237.242279052734
+		},
+		"map.planet.lamplighter.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 220.09619140625,
+			"y": 250.435729980469
+		},
+		"map.planet.lamplighter.tag_text": {
+			"font_size": 13.0,
+			"height": 27.0,
+			"width": 86.0,
+			"x": 219.4267578125,
+			"y": 250.088989257813
+		},
+		"map.planet.merchant.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 220.765747070313,
+			"y": 273.927734375
+		},
+		"map.planet.merchant.tag_text": {
+			"font_size": 13.0,
+			"height": 27.0,
+			"width": 86.0,
+			"x": 220.765625,
+			"y": 273.580932617188
+		},
+		"map.planet.player.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 206.707092285156,
+			"y": 258.951843261719
+		},
+		"map.planet.player.tag_text": {
+			"font_size": 13.0,
+			"height": 27.0,
+			"width": 86.0,
+			"x": 210.054351806641,
+			"y": 261.282470703125
+		},
+		"map.planet.rose.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 266.288726806641,
+			"y": 227.678039550781
+		},
+		"map.planet.rose.tag_text": {
+			"font_size": 13.0,
+			"height": 27.0,
+			"width": 86.0,
+			"x": 268.966522216797,
+			"y": 228.000671386719
+		},
+		"map.planet.vain.tag_paper": {
+			"font_size": 0.0,
+			"height": 28.0,
+			"width": 86.0,
+			"x": 203.35986328125,
+			"y": 245.250366210938
+		},
+		"map.planet.vain.tag_text": {
+			"font_size": 13.0,
+			"height": 27.0,
+			"width": 86.0,
+			"x": 202.020874023438,
+			"y": 245.572998046875
+		}
+	},
+	"version": 1
+}

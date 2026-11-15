@@ -1,0 +1,8 @@
+.godot/
+build/
+analysis/
+tools/test_output/*
+!tools/test_output/.gdignore
+*.log
+*.tmp
+*.translation

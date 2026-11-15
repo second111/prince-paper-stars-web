@@ -1,0 +1,692 @@
+{
+	"base_lighting": 1.0,
+	"deleted_ids": [
+		"star_clasp-copy-31",
+		"mirror_base-copy-33",
+		"mirror_base-copy-34",
+		"vain_purple_curtain-04",
+		"purple_curtain-copy-41",
+		"star_clasp-copy-28",
+		"star_clasp-copy-29",
+		"vain_pine_tree-11",
+		"king_light-14",
+		"purple_curtain-copy-15",
+		"vain_round_tree-10",
+		"vain_grass-12",
+		"purple_curtain-copy-14",
+		"mirror_base-copy-38",
+		"vain_purple_curtain_feature-13"
+	],
+	"earth_light_yaw": 34.0,
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/vain/gazebo.glb",
+			"base_scale": 1.62,
+			"id": "vain_gazebo-01",
+			"kind": "gazebo",
+			"label": "镜亭",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0380810163915157,
+				0.998670935630798,
+				-0.0347317978739738
+			],
+			"root_radius": 2.71,
+			"scale": 1.85,
+			"surface_tilt": -2.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -52.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/ornate_mirror.glb",
+			"base_scale": 0.95,
+			"id": "vain_ornate_mirror-02",
+			"kind": "ornate_mirror",
+			"label": "华丽镜子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.474406152963638,
+				0.874636352062225,
+				0.0997502207756042
+			],
+			"root_radius": 2.77,
+			"scale": 1.45,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 112.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/mirror_fan.glb",
+			"base_scale": 0.8,
+			"id": "vain_mirror_fan-03",
+			"kind": "mirror_fan",
+			"label": "镜扇雕塑",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.125583678483963,
+				0.984139204025269,
+				0.12529481947422
+			],
+			"root_radius": 2.96,
+			"scale": 3.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 60.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/top_hat.glb",
+			"base_scale": 0.52,
+			"id": "vain_top_hat-05",
+			"kind": "top_hat",
+			"label": "礼帽",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.334163874387741,
+				0.939308881759644,
+				-0.0776750966906548
+			],
+			"root_radius": 3.14,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/mirror_base.glb",
+			"base_scale": 0.534433014776158,
+			"id": "vain_mirror_base-06",
+			"kind": "mirror_base",
+			"label": "镜子底座",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.481979191303253,
+				0.872093677520752,
+				0.0845494344830513
+			],
+			"root_radius": 2.71,
+			"scale": 1.0,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 169.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/star_clasp.glb",
+			"base_scale": 0.424743409118815,
+			"brightness": 0.45,
+			"id": "vain_star_clasp-07",
+			"kind": "star_clasp",
+			"label": "星星扣",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.263999998569489,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.26573446393013,
+				0.964039862155914,
+				0.00352633139118552
+			],
+			"root_radius": 4.4,
+			"scale": 0.9,
+			"surface_tilt": -33.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 81.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/purple_rocks.glb",
+			"base_scale": 0.810867563122735,
+			"id": "vain_purple_rocks-08",
+			"kind": "purple_rocks",
+			"label": "紫色岩簇",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0745800286531448,
+				0.562456667423248,
+				-0.823456346988678
+			],
+			"root_radius": 2.63,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "vain_petal_pile-09",
+			"kind": "petal_pile",
+			"label": "花瓣堆",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.597575783729553,
+				0.712395548820496,
+				0.367961764335632
+			],
+			"root_radius": 2.55,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/gentleman_rigged.glb",
+			"base_scale": 0.76077250721651,
+			"id": "vain_vain_character-15",
+			"kind": "vain_character",
+			"label": "爱慕虚荣的人",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.052410539239645,
+				0.997057557106018,
+				-0.0559409186244011
+			],
+			"root_radius": 2.97,
+			"scale": 1.7,
+			"selected_animation": "dance_01_001",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 68.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 0.680570995648787,
+			"id": "vain_prince_character-16",
+			"kind": "prince_character",
+			"label": "小王子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0951725095510483,
+				0.94704258441925,
+				-0.306679844856262
+			],
+			"root_radius": 3.06,
+			"scale": 1.2,
+			"selected_animation": "ambient_idle",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -126.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-16",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.204858437180519,
+				0.928429365158081,
+				0.309922486543655
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 1.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-17",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.396436810493469,
+				0.867705047130585,
+				-0.299876362085342
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-18",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.260862022638321,
+				0.779968202114105,
+				-0.568859100341797
+			],
+			"root_radius": 2.79,
+			"scale": 1.45,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-19",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.240126550197601,
+				0.355744928121567,
+				-0.903208017349243
+			],
+			"root_radius": 2.6,
+			"scale": 1.45,
+			"surface_tilt": -7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-20",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0756553709506989,
+				0.0849059894680977,
+				-0.993512570858002
+			],
+			"root_radius": 2.35,
+			"scale": 1.45,
+			"surface_tilt": -7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-21",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.708090364933014,
+				0.488771706819534,
+				-0.509617865085602
+			],
+			"root_radius": 2.35,
+			"scale": 1.45,
+			"surface_tilt": -7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-22",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.36155578494072,
+				0.75155371427536,
+				-0.551764845848084
+			],
+			"root_radius": 2.57,
+			"scale": 1.9,
+			"surface_tilt": -7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/petal_pile.glb",
+			"base_scale": 0.576461611137183,
+			"id": "petal_pile-copy-23",
+			"kind": "petal_pile",
+			"label": "花瓣堆 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.268727749586105,
+				0.769207775592804,
+				0.579745471477509
+			],
+			"root_radius": 2.57,
+			"scale": 1.9,
+			"surface_tilt": 4.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/star_clasp.glb",
+			"base_scale": 0.424743409118815,
+			"brightness": 0.4,
+			"id": "star_clasp-copy-24",
+			"kind": "star_clasp",
+			"label": "星星扣 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.270986288785934,
+				0.0
+			],
+			"light_on": false,
+			"locked": true,
+			"normal": [
+				0.214599043130875,
+				0.951218247413635,
+				-0.221655577421188
+			],
+			"root_radius": 4.42,
+			"scale": 0.9,
+			"surface_tilt": -33.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 126.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/star_clasp.glb",
+			"base_scale": 0.424743409118815,
+			"brightness": 0.45,
+			"id": "star_clasp-copy-25",
+			"kind": "star_clasp",
+			"label": "星星扣 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.270986288785934,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.0162955224514008,
+				0.944814562797546,
+				-0.327200084924698
+			],
+			"root_radius": 4.49,
+			"scale": 0.9,
+			"surface_tilt": -33.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 167.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/star_clasp.glb",
+			"base_scale": 0.424743409118815,
+			"brightness": 0.4,
+			"id": "star_clasp-copy-26",
+			"kind": "star_clasp",
+			"label": "星星扣 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.270986288785934,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.204847887158394,
+				0.937554061412811,
+				-0.281122177839279
+			],
+			"root_radius": 4.44,
+			"scale": 0.9,
+			"surface_tilt": -33.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -142.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/star_clasp.glb",
+			"base_scale": 0.424743409118815,
+			"brightness": 0.45,
+			"id": "star_clasp-copy-27",
+			"kind": "star_clasp",
+			"label": "星星扣 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.270986288785934,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.313232183456421,
+				0.945895135402679,
+				-0.0846641361713409
+			],
+			"root_radius": 4.44,
+			"scale": 0.9,
+			"surface_tilt": -33.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -99.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/star_clasp.glb",
+			"base_scale": 0.424743409118815,
+			"brightness": 0.35,
+			"id": "star_clasp-copy-30",
+			"kind": "star_clasp",
+			"label": "星星扣 副本",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.270986288785934,
+				0.0
+			],
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.155863612890244,
+				0.969327390193939,
+				0.190028861165047
+			],
+			"root_radius": 4.46,
+			"scale": 0.9,
+			"surface_tilt": -33.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 36.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/mirror_base.glb",
+			"base_scale": 0.534433014776158,
+			"id": "mirror_base-copy-32",
+			"kind": "mirror_base",
+			"label": "镜子底座 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.326644897460938,
+				0.908871710300446,
+				0.259336441755295
+			],
+			"root_radius": 2.74,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 171.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/ornate_mirror.glb",
+			"base_scale": 0.95,
+			"id": "ornate_mirror-copy-35",
+			"kind": "ornate_mirror",
+			"label": "华丽镜子 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.298921048641205,
+				0.908232688903809,
+				0.292847454547882
+			],
+			"root_radius": 3.51,
+			"scale": 1.45,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 97.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/mirror_base.glb",
+			"base_scale": 0.534433014776158,
+			"id": "mirror_base-copy-36",
+			"kind": "mirror_base",
+			"label": "镜子底座 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.41341370344162,
+				0.814214885234833,
+				-0.407606720924377
+			],
+			"root_radius": 2.75,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 142.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/ornate_mirror.glb",
+			"base_scale": 0.95,
+			"id": "ornate_mirror-copy-37",
+			"kind": "ornate_mirror",
+			"label": "华丽镜子 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.42296290397644,
+				0.823845386505127,
+				-0.377334386110306
+			],
+			"root_radius": 3.44,
+			"scale": 1.45,
+			"surface_tilt": 6.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 27.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/ornate_mirror.glb",
+			"base_scale": 0.95,
+			"id": "ornate_mirror-copy-39",
+			"kind": "ornate_mirror",
+			"label": "华丽镜子 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.431933045387268,
+				0.890414774417877,
+				-0.14351125061512
+			],
+			"root_radius": 3.63,
+			"scale": 1.45,
+			"surface_tilt": 15.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 35.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/purple_rocks.glb",
+			"base_scale": 0.810867563122735,
+			"id": "purple_rocks-copy-40",
+			"kind": "purple_rocks",
+			"label": "紫色岩簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.556309759616852,
+				0.756796777248383,
+				-0.343188315629959
+			],
+			"root_radius": 2.63,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/purple_rocks.glb",
+			"base_scale": 0.810867563122735,
+			"id": "purple_rocks-copy-41",
+			"kind": "purple_rocks",
+			"label": "紫色岩簇 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.465600669384003,
+				0.33154085278511,
+				-0.820546567440033
+			],
+			"root_radius": 2.41,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/vain/mirror_base.glb",
+			"base_scale": 0.534433014776158,
+			"id": "mirror_base-copy-40",
+			"kind": "mirror_base",
+			"label": "镜子底座 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.426009982824326,
+				0.885303318500519,
+				-0.186422675848007
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 142.0
+		}
+	],
+	"scene_slug": "vain",
+	"version": 3,
+	"wheat_brightness": 0.88,
+	"wheat_saturation": 0.82,
+	"wheat_tone_version": 2
+}

@@ -1,0 +1,1040 @@
+{
+	"base_lighting": 0.75,
+	"deleted_ids": [
+		"king_light-22"
+	],
+	"earth_light_yaw": 34.0,
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/generated/house.glb",
+			"base_scale": 1.65,
+			"id": "house-01",
+			"kind": "house",
+			"label": "小屋",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.699999988079071,
+				0.340000003576279
+			],
+			"locked": true,
+			"normal": [
+				0.311779588460922,
+				0.948286652565002,
+				0.0595472939312458
+			],
+			"root_radius": 2.35,
+			"scale": 1.05,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -11.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/lamp.glb",
+			"base_scale": 1.9,
+			"id": "main_lamp-02",
+			"kind": "main_lamp",
+			"label": "主灯",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				1.55999994277954,
+				0.319999992847443
+			],
+			"locked": true,
+			"normal": [
+				-0.0599878765642643,
+				0.998184561729431,
+				-0.00539018306881189
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 31.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/ladder.glb",
+			"base_scale": 1.08,
+			"id": "ladder-03",
+			"kind": "ladder",
+			"label": "梯子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.197383388876915,
+				0.979864954948425,
+				0.0300747193396091
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -51.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/lamplighter_rigged.glb",
+			"base_scale": 0.96,
+			"id": "lamplighter-04",
+			"kind": "lamplighter",
+			"label": "点灯人",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.264036893844604,
+				0.957030534744263,
+				0.119904771447182
+			],
+			"root_radius": 2.36,
+			"scale": 1.25,
+			"selected_animation": "idle_001",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -90.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/lamp.glb",
+			"base_scale": 1.0,
+			"id": "side_lamp-05",
+			"kind": "side_lamp",
+			"label": "侧灯",
+			"layout_mode": "sphere",
+			"light_offset": [
+				0.0,
+				0.819999992847443,
+				0.170000001788139
+			],
+			"locked": true,
+			"normal": [
+				0.829365193843842,
+				0.548163712024689,
+				-0.108027867972851
+			],
+			"root_radius": 2.35,
+			"scale": 1.25,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/chair.glb",
+			"base_scale": 0.8,
+			"id": "chair-06",
+			"kind": "chair",
+			"label": "椅子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0314811989665031,
+				0.982760727405548,
+				0.182182371616364
+			],
+			"root_radius": 2.35,
+			"scale": 0.65,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": false,
+			"yaw": -55.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/seated_prince.glb",
+			"base_scale": 1.0,
+			"id": "seated_prince-07",
+			"kind": "seated_prince",
+			"label": "坐姿小王子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0270957536995411,
+				0.971163988113403,
+				0.236867755651474
+			],
+			"root_radius": 2.5,
+			"scale": 0.65,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": false,
+			"yaw": -48.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-08",
+			"kind": "round_tree",
+			"label": "圆冠树 01",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.124985918402672,
+				0.889546751976013,
+				-0.439414501190186
+			],
+			"root_radius": 2.35,
+			"scale": 2.05,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -20.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.56,
+			"id": "round_tree-09",
+			"kind": "round_tree",
+			"label": "圆冠树 02",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.489706426858902,
+				0.855829954147339,
+				-0.166561633348465
+			],
+			"root_radius": 2.35,
+			"scale": 1.3,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 25.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.58,
+			"id": "pine_tree-10",
+			"kind": "pine_tree",
+			"label": "针叶树 01",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.543295621871948,
+				0.838932037353516,
+				0.0319841131567955
+			],
+			"root_radius": 2.35,
+			"scale": 1.55,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-11",
+			"kind": "pine_tree",
+			"label": "针叶树 02",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.58935159444809,
+				0.78991311788559,
+				-0.169416278600693
+			],
+			"root_radius": 2.49,
+			"scale": 2.0,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/stone_path.glb",
+			"base_scale": 1.35,
+			"id": "stone_path-12",
+			"kind": "stone_path",
+			"label": "石板路",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.180736020207405,
+				0.912351906299591,
+				0.367353498935699
+			],
+			"root_radius": 2.42,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -142.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.58,
+			"id": "rocks-13",
+			"kind": "rocks",
+			"label": "石块 01",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.51449716091156,
+				0.837277233600616,
+				0.185093536973
+			],
+			"root_radius": 2.35,
+			"scale": 1.15,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 15.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.66,
+			"id": "rocks-14",
+			"kind": "rocks",
+			"label": "石块 02",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0555460453033447,
+				0.993597209453583,
+				-0.0983832776546478
+			],
+			"root_radius": 2.35,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -30.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.74,
+			"id": "rocks-15",
+			"kind": "rocks",
+			"label": "石块 03",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.31747442483902,
+				0.925752401351929,
+				-0.205408081412315
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 94.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.62,
+			"id": "grass-16",
+			"kind": "grass",
+			"label": "草丛 01",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.644026756286621,
+				0.764868438243866,
+				-0.0143503909930587
+			],
+			"root_radius": 2.56,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.7,
+			"id": "grass-17",
+			"kind": "grass",
+			"label": "草丛 02",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.675158858299255,
+				0.719933271408081,
+				-0.160800069570541
+			],
+			"root_radius": 2.5,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.62,
+			"id": "grass-18",
+			"kind": "grass",
+			"label": "草丛 03",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.80711030960083,
+				0.559393584728241,
+				-0.188816890120506
+			],
+			"root_radius": 2.35,
+			"scale": 1.05,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 1.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.7,
+			"id": "grass-19",
+			"kind": "grass",
+			"label": "草丛 04",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.548396646976471,
+				0.833021402359009,
+				-0.0730513036251068
+			],
+			"root_radius": 2.35,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 17.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.62,
+			"id": "grass-20",
+			"kind": "grass",
+			"label": "草丛 05",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.657062113285065,
+				0.725807905197144,
+				0.203647315502167
+			],
+			"root_radius": 2.46,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 7.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 0.74,
+			"id": "standing_prince-21",
+			"kind": "standing_prince",
+			"label": "站姿小王子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.277598530054092,
+				0.899644613265991,
+				0.337014377117157
+			],
+			"root_radius": 2.38,
+			"scale": 1.05,
+			"selected_animation": "ambient_idle",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 92.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-22",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.426901340484619,
+				0.871734619140625,
+				-0.240487203001976
+			],
+			"root_radius": 2.35,
+			"scale": 2.35,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-23",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.234735056757927,
+				0.913542509078979,
+				-0.33217391371727
+			],
+			"root_radius": 2.35,
+			"scale": 2.1,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.74,
+			"id": "rocks-copy-24",
+			"kind": "rocks",
+			"label": "石块 03 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.596834063529968,
+				0.764116227626801,
+				-0.244776591658592
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 94.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.56,
+			"id": "round_tree-copy-25",
+			"kind": "round_tree",
+			"label": "圆冠树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.709205090999603,
+				0.699654698371887,
+				-0.0866684690117836
+			],
+			"root_radius": 2.46,
+			"scale": 1.6,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 7.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/stone_path.glb",
+			"base_scale": 1.35,
+			"id": "stone_path-copy-26",
+			"kind": "stone_path",
+			"label": "石板路 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.00565871456637979,
+				0.885632276535034,
+				0.464352756738663
+			],
+			"root_radius": 2.42,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 26.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.74,
+			"id": "rocks-copy-27",
+			"kind": "rocks",
+			"label": "石块 03 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.531477391719818,
+				0.58338588476181,
+				-0.614160180091858
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 94.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/stone_path.glb",
+			"base_scale": 1.35,
+			"id": "stone_path-copy-28",
+			"kind": "stone_path",
+			"label": "石板路 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0805845856666565,
+				0.996604800224304,
+				0.0168825481086969
+			],
+			"root_radius": 2.35,
+			"scale": 0.55,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -171.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-29",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.4486363530159,
+				0.720631659030914,
+				-0.52859765291214
+			],
+			"root_radius": 2.35,
+			"scale": 1.9,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-copy-30",
+			"kind": "round_tree",
+			"label": "圆冠树 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.132820919156075,
+				0.963586390018463,
+				-0.232077494263649
+			],
+			"root_radius": 2.35,
+			"scale": 1.4,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 16.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-copy-31",
+			"kind": "round_tree",
+			"label": "圆冠树 01 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.508432865142822,
+				0.778715848922729,
+				-0.36755645275116
+			],
+			"root_radius": 2.35,
+			"scale": 1.85,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-copy-32",
+			"kind": "round_tree",
+			"label": "圆冠树 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.876062095165253,
+				0.46259406208992,
+				-0.136095747351646
+			],
+			"root_radius": 2.35,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.7,
+			"id": "grass-copy-33",
+			"kind": "grass",
+			"label": "草丛 04 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.250130981206894,
+				0.956931114196777,
+				-0.147368311882019
+			],
+			"root_radius": 2.35,
+			"scale": 0.75,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 17.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-34",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.176782310009003,
+				0.781041026115417,
+				-0.598934829235077
+			],
+			"root_radius": 2.49,
+			"scale": 2.05,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-35",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.411723434925079,
+				0.747476100921631,
+				-0.521309316158295
+			],
+			"root_radius": 2.49,
+			"scale": 2.15,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-copy-36",
+			"kind": "round_tree",
+			"label": "圆冠树 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.768537819385529,
+				0.546944916248322,
+				-0.331965416669846
+			],
+			"root_radius": 2.35,
+			"scale": 1.7,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -11.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-copy-37",
+			"kind": "round_tree",
+			"label": "圆冠树 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0838266387581825,
+				0.881594657897949,
+				-0.464504063129425
+			],
+			"root_radius": 2.35,
+			"scale": 1.95,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.74,
+			"id": "rocks-copy-38",
+			"kind": "rocks",
+			"label": "石块 03 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.393015652894974,
+				0.883962512016296,
+				-0.253276735544205
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 94.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-39",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.04158715903759,
+				0.959411799907684,
+				-0.278925895690918
+			],
+			"root_radius": 2.49,
+			"scale": 2.05,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.6,
+			"id": "round_tree-copy-40",
+			"kind": "round_tree",
+			"label": "圆冠树 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.633165657520294,
+				0.727473437786102,
+				-0.264355152845383
+			],
+			"root_radius": 2.35,
+			"scale": 1.2,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 2.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/stone_path.glb",
+			"base_scale": 1.35,
+			"id": "stone_path-copy-41",
+			"kind": "stone_path",
+			"label": "石板路 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.233193978667259,
+				0.781323790550232,
+				0.578924596309662
+			],
+			"root_radius": 2.42,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -157.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.7,
+			"id": "grass-copy-42",
+			"kind": "grass",
+			"label": "草丛 04 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.157256424427032,
+				0.956468045711517,
+				0.24584399163723
+			],
+			"root_radius": 2.35,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.7,
+			"id": "grass-copy-43",
+			"kind": "grass",
+			"label": "草丛 04 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.665161311626434,
+				0.745386302471161,
+				-0.0442689470946789
+			],
+			"root_radius": 2.35,
+			"scale": 0.45,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.62,
+			"id": "grass-copy-45",
+			"kind": "grass",
+			"label": "草丛 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.417785853147507,
+				0.860572636127472,
+				0.29132416844368
+			],
+			"root_radius": 2.41,
+			"scale": 0.6,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.62,
+			"id": "grass-copy-46",
+			"kind": "grass",
+			"label": "草丛 01 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0285090655088425,
+				0.846724450588226,
+				0.531267404556274
+			],
+			"root_radius": 2.41,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": -26.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/rocks.glb",
+			"base_scale": 0.66,
+			"id": "rocks-copy-47",
+			"kind": "rocks",
+			"label": "石块 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.521635591983795,
+				0.821464061737061,
+				-0.23041957616806
+			],
+			"root_radius": 2.35,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 47.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-48",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.31001552939415,
+				0.595253825187683,
+				-0.741325438022614
+			],
+			"root_radius": 2.49,
+			"scale": 2.1,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-49",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.103795818984509,
+				0.731365501880646,
+				-0.674040794372559
+			],
+			"root_radius": 2.49,
+			"scale": 2.1,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.54,
+			"id": "pine_tree-copy-50",
+			"kind": "pine_tree",
+			"label": "针叶树 02 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.585209429264069,
+				0.659188151359558,
+				-0.472229659557343
+			],
+			"root_radius": 2.49,
+			"scale": 1.85,
+			"surface_tilt": 0.0,
+			"upright": false,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.7,
+			"glow_point": true,
+			"id": "king_light-51",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"light_range": 1.0,
+			"locked": false,
+			"normal": [
+				-0.209605142474175,
+				0.72358500957489,
+				0.657640099525452
+			],
+			"root_radius": 2.08,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		}
+	],
+	"player_height_schema": 2,
+	"player_item_height_lock_version": 1,
+	"player_item_heights": {},
+	"player_item_scales": {},
+	"player_item_support_heights": {},
+	"scene_slug": "pointlighter",
+	"version": 3,
+	"wheat_brightness": 0.88,
+	"wheat_saturation": 0.82,
+	"wheat_tone_version": 2
+}

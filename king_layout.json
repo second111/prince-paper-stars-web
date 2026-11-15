@@ -1,0 +1,682 @@
+{
+	"base_lighting": 1.0,
+	"deleted_ids": [
+		"king_canopy-copy-09",
+		"king_tower_a-copy-22"
+	],
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/king/king_canopy_frame.glb",
+			"base_scale": 1.1,
+			"id": "king_king_canopy-01",
+			"kind": "king_canopy",
+			"label": "顶棚主体与立柱",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.00197678804397583,
+				2.67000007629395,
+				-0.143457889556885
+			],
+			"root_radius": 2.67000007629395,
+			"scale": 1.75,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_crown.glb",
+			"base_scale": 1.25,
+			"id": "king_king_crown-02",
+			"kind": "king_crown",
+			"label": "皇冠顶棚",
+			"layout_mode": "plane",
+			"locked": false,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.0011846050620079,
+				3.72000002861023,
+				-0.15545392036438
+			],
+			"root_radius": 3.72000002861023,
+			"scale": 0.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_drapes.glb",
+			"base_scale": 1.0,
+			"id": "king_king_drapes-03",
+			"kind": "king_drapes",
+			"label": "帷幔",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.468463659286499,
+				2.69000005722046,
+				0.0974006652832031
+			],
+			"root_radius": 2.69000005722046,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -56.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_throne.glb",
+			"base_scale": 1.0,
+			"id": "king_king_throne-04",
+			"kind": "king_throne",
+			"label": "王座",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.0125971734523773,
+				2.67000007629395,
+				-0.275826692581177
+			],
+			"root_radius": 2.67000007629395,
+			"scale": 0.85,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_banners.glb",
+			"base_scale": 0.95,
+			"id": "king_king_banners-05",
+			"kind": "king_banners",
+			"label": "旗帜",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.784417331218719,
+				2.67000007629395,
+				-0.327398151159287
+			],
+			"root_radius": 2.67000007629395,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -164.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_a.glb",
+			"base_scale": 0.45,
+			"id": "king_king_tower_a-06",
+			"kind": "king_tower_a",
+			"label": "小塔楼 A",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.999430656433105,
+				2.24000000953674,
+				0.568892300128937
+			],
+			"root_radius": 2.24000000953674,
+			"scale": 0.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 21.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_b.glb",
+			"base_scale": 0.43,
+			"id": "king_king_tower_b-07",
+			"kind": "king_tower_b",
+			"label": "小塔楼 B",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.734537959098816,
+				1.92999994754791,
+				0.858693182468414
+			],
+			"root_radius": 1.92999994754791,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 75.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/king_sit_rigged.glb",
+			"base_scale": 0.56,
+			"id": "king_king_character-08",
+			"kind": "king_character",
+			"label": "国王",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.0180610716342926,
+				2.6800000667572,
+				-0.205585241317749
+			],
+			"root_radius": 2.6800000667572,
+			"scale": 1.65,
+			"selected_animation": "sit_001",
+			"surface_tilt": -1.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -81.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 0.55,
+			"id": "king_looking_up_prince-09",
+			"kind": "looking_up_prince",
+			"label": "抬头的小王子",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.0074239457026124,
+				2.15000009536743,
+				0.929970324039459
+			],
+			"root_radius": 2.15000009536743,
+			"scale": 0.95,
+			"selected_animation": "ambient_idle",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 99.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.35,
+			"glow_point": true,
+			"id": "king_light-10",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "plane",
+			"light_on": true,
+			"locked": false,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-1.01491415500641,
+				2.44000005722046,
+				0.525403022766113
+			],
+			"root_radius": 2.44000005722046,
+			"scale": 0.45,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_drapes.glb",
+			"base_scale": 1.0,
+			"id": "king_drapes-copy-08",
+			"kind": "king_drapes",
+			"label": "帷幔 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.462966442108154,
+				2.69000005722046,
+				0.0875580310821533
+			],
+			"root_radius": 2.69000005722046,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 68.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_drapes.glb",
+			"base_scale": 1.0,
+			"id": "king_drapes-copy-10",
+			"kind": "king_drapes",
+			"label": "帷幔 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.455390810966492,
+				2.58999991416931,
+				-0.434926509857178
+			],
+			"root_radius": 2.58999991416931,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -112.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_drapes.glb",
+			"base_scale": 1.0,
+			"id": "king_drapes-copy-11",
+			"kind": "king_drapes",
+			"label": "帷幔 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.437441349029541,
+				2.57999992370605,
+				-0.408525049686432
+			],
+			"root_radius": 2.57999992370605,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 105.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_drapes.glb",
+			"base_scale": 1.0,
+			"id": "king_drapes-copy-12",
+			"kind": "king_drapes",
+			"label": "帷幔 副本",
+			"layout_mode": "plane",
+			"locked": false,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.00251054763793945,
+				2.57999992370605,
+				-0.764678955078125
+			],
+			"root_radius": 2.57999992370605,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 180.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_banners.glb",
+			"base_scale": 0.95,
+			"id": "king_banners-copy-13",
+			"kind": "king_banners",
+			"label": "旗帜 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.784801840782166,
+				2.67000007629395,
+				-0.375481128692627
+			],
+			"root_radius": 2.67000007629395,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -15.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_b.glb",
+			"base_scale": 0.43,
+			"id": "king_tower_b-copy-14",
+			"kind": "king_tower_b",
+			"label": "小塔楼 B 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.533801078796387,
+				2.47000002861023,
+				0.182396680116653
+			],
+			"root_radius": 2.47000002861023,
+			"scale": 0.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 97.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_a.glb",
+			"base_scale": 0.45,
+			"id": "king_tower_a-copy-15",
+			"kind": "king_tower_a",
+			"label": "小塔楼 A 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.482509255409241,
+				2.41000008583069,
+				0.284226775169373
+			],
+			"root_radius": 2.41000008583069,
+			"scale": 0.8,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -17.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_b.glb",
+			"base_scale": 0.43,
+			"id": "king_tower_b-copy-16",
+			"kind": "king_tower_b",
+			"label": "小塔楼 B 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.826590895652771,
+				1.95000004768372,
+				0.740842461585999
+			],
+			"root_radius": 1.95000004768372,
+			"scale": 0.75,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 34.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_a.glb",
+			"base_scale": 0.45,
+			"id": "king_tower_a-copy-17",
+			"kind": "king_tower_a",
+			"label": "小塔楼 A 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.920607805252075,
+				1.51999998092651,
+				0.738885402679443
+			],
+			"root_radius": 1.51999998092651,
+			"scale": 0.8,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 12.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_b.glb",
+			"base_scale": 0.43,
+			"id": "king_tower_b-copy-18",
+			"kind": "king_tower_b",
+			"label": "小塔楼 B 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.76332026720047,
+				2.50999999046326,
+				-0.252289772033691
+			],
+			"root_radius": 2.50999999046326,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 71.0
+		},
+		{
+			"asset_path": "res://assets/3d/king/king_tower_a.glb",
+			"base_scale": 0.45,
+			"id": "king_tower_a-copy-19",
+			"kind": "king_tower_a",
+			"label": "小塔楼 A 副本",
+			"layout_mode": "plane",
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.736503601074219,
+				2.5,
+				-0.129302501678467
+			],
+			"root_radius": 2.5,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 18.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.25,
+			"glow_point": true,
+			"id": "king_light-copy-23",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "plane",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.490058779716492,
+				2.53999996185303,
+				0.291337966918945
+			],
+			"root_radius": 2.53999996185303,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.35,
+			"glow_point": true,
+			"id": "king_light-copy-24",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "plane",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				-0.73419177532196,
+				2.60999989509583,
+				-0.155611038208008
+			],
+			"root_radius": 2.60999989509583,
+			"scale": 0.45,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.25,
+			"glow_point": true,
+			"id": "king_light-copy-25",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "plane",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.762074708938599,
+				2.76999998092651,
+				-0.244094848632813
+			],
+			"root_radius": 2.76999998092651,
+			"scale": 0.3,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.3,
+			"glow_point": true,
+			"id": "king_light-copy-26",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "plane",
+			"light_on": false,
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.939760208129883,
+				1.71000003814697,
+				0.738398313522339
+			],
+			"root_radius": 1.71000003814697,
+			"scale": 0.3,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.45,
+			"glow_point": true,
+			"id": "king_light-copy-27",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "plane",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"position": [
+				0.715639591217041,
+				2.08999991416931,
+				0.84525728225708
+			],
+			"root_radius": 2.08999991416931,
+			"scale": 0.3,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -18.0
+		}
+	],
+	"version": 3,
+	"wheat_brightness": 0.9,
+	"wheat_saturation": 0.92
+}

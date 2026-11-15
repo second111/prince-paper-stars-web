@@ -1,0 +1,1344 @@
+{
+	"base_lighting": 0.9,
+	"deleted_ids": [
+		"pine_tree-copy-23",
+		"grass-copy-38",
+		"flower_patch-copy-47",
+		"flower_patch-copy-57"
+	],
+	"earth_light_yaw": 34.0,
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/rose/glass_dome.glb",
+			"base_scale": 1.29159431357846,
+			"id": "rose_glass_dome-01",
+			"kind": "glass_dome",
+			"label": "玻璃罩",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.068125918507576,
+				0.964766442775726,
+				0.254134982824326
+			],
+			"root_radius": 2.51,
+			"scale": 1.0,
+			"surface_tilt": -2.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/small_house.glb",
+			"base_scale": 1.19047758784527,
+			"id": "rose_small_house-02",
+			"kind": "small_house",
+			"label": "小屋",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.62353128194809,
+				0.710596799850464,
+				0.325976848602295
+			],
+			"root_radius": 2.43,
+			"scale": 1.15,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 15.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/baobab.glb",
+			"base_scale": 0.996939750411738,
+			"id": "rose_baobab-03",
+			"kind": "baobab",
+			"label": "猴面包树",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.274276435375214,
+				0.927949130535126,
+				-0.252354651689529
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 18.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/volcano.glb",
+			"base_scale": 0.812458763515519,
+			"id": "rose_volcano-04",
+			"kind": "volcano",
+			"label": "火山",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.574715554714203,
+				0.666051805019379,
+				-0.475475668907166
+			],
+			"root_radius": 2.43,
+			"scale": 1.15,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -26.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/fence.glb",
+			"base_scale": 1.0057473902797,
+			"id": "rose_fence-05",
+			"kind": "fence",
+			"label": "栅栏",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.317013621330261,
+				0.93369197845459,
+				-0.166498467326164
+			],
+			"root_radius": 2.43,
+			"scale": 0.8,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/stone_path.glb",
+			"base_scale": 1.06702214533752,
+			"id": "rose_stone_path-06",
+			"kind": "stone_path",
+			"label": "石板路",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.408431440591812,
+				0.889920353889465,
+				0.203040987253189
+			],
+			"root_radius": 2.4,
+			"scale": 0.9,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -6.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/grass.glb",
+			"base_scale": 0.416341957259227,
+			"id": "rose_grass-07",
+			"kind": "grass",
+			"label": "草丛",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.512106478214264,
+				0.85778021812439,
+				-0.0442736335098743
+			],
+			"root_radius": 2.35,
+			"scale": 1.8,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -1.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "rose_flower_cluster-08",
+			"kind": "flower_cluster",
+			"label": "花簇",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.645208299160004,
+				0.546099185943604,
+				0.534305155277252
+			],
+			"root_radius": 2.45,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "rose_flower_patch-09",
+			"kind": "flower_patch",
+			"label": "花丛",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.267121076583862,
+				0.962520956993103,
+				-0.0469014830887318
+			],
+			"root_radius": 2.41,
+			"scale": 1.55,
+			"surface_tilt": 2.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -6.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/pedestal.glb",
+			"base_scale": 0.492553090964126,
+			"id": "rose_pedestal-10",
+			"kind": "pedestal",
+			"label": "底座",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0645496398210526,
+				0.965034186840057,
+				0.254052102565765
+			],
+			"root_radius": 2.48,
+			"scale": 1.45,
+			"surface_tilt": -3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -5.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/rose_model.glb",
+			"base_scale": 0.829214158903818,
+			"id": "rose_rose_model-11",
+			"kind": "rose_model",
+			"label": "玫瑰",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0687093585729599,
+				0.971009194850922,
+				0.228954613208771
+			],
+			"root_radius": 2.46,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 60.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "rose_round_tree-12",
+			"kind": "round_tree",
+			"label": "圆冠树",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.20786640048027,
+				0.972643375396729,
+				-0.103713527321815
+			],
+			"root_radius": 2.35,
+			"scale": 1.35,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "rose_pine_tree-13",
+			"kind": "pine_tree",
+			"label": "针叶树",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.400990843772888,
+				0.829668343067169,
+				-0.388402879238129
+			],
+			"root_radius": 2.5,
+			"scale": 1.45,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.426302493075304,
+			"id": "rose_grass-14",
+			"kind": "grass",
+			"label": "草丛（点灯人）",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.35123148560524,
+				0.280985176563263,
+				0.893131494522095
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.2,
+			"glow_point": true,
+			"id": "king_light-15",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.501216292381287,
+				0.766644597053528,
+				0.401295840740204
+			],
+			"root_radius": 2.72,
+			"scale": 0.5,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 0.680570995648787,
+			"id": "rose_prince_character-16",
+			"kind": "prince_character",
+			"label": "小王子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.194384753704071,
+				0.95577073097229,
+				0.220719218254089
+			],
+			"root_radius": 2.54,
+			"scale": 1.0,
+			"selected_animation": "ambient_idle",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/baobab.glb",
+			"base_scale": 0.996939750411738,
+			"id": "baobab-copy-15",
+			"kind": "baobab",
+			"label": "猴面包树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0284308325499296,
+				0.976896584033966,
+				-0.21181309223175
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -170.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-16",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.135594889521599,
+				0.806439697742462,
+				-0.575559854507446
+			],
+			"root_radius": 2.35,
+			"scale": 1.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 41.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-17",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.238176390528679,
+				0.882965922355652,
+				-0.404528379440308
+			],
+			"root_radius": 2.35,
+			"scale": 1.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 20.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "pine_tree-copy-18",
+			"kind": "pine_tree",
+			"label": "针叶树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.390855878591537,
+				0.727497518062592,
+				-0.563896358013153
+			],
+			"root_radius": 2.5,
+			"scale": 1.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/baobab.glb",
+			"base_scale": 0.996939750411738,
+			"id": "baobab-copy-19",
+			"kind": "baobab",
+			"label": "猴面包树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.666845500469208,
+				0.745168566703796,
+				-0.00640402501448989
+			],
+			"root_radius": 2.35,
+			"scale": 1.35,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 20.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-20",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.527146697044373,
+				0.845731556415558,
+				0.0827924013137817
+			],
+			"root_radius": 2.35,
+			"scale": 1.45,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 20.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "pine_tree-copy-21",
+			"kind": "pine_tree",
+			"label": "针叶树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.364545583724976,
+				0.921279191970825,
+				-0.135466709733009
+			],
+			"root_radius": 2.5,
+			"scale": 1.3,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "pine_tree-copy-22",
+			"kind": "pine_tree",
+			"label": "针叶树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.677316844463348,
+				0.720068693161011,
+				-0.150807857513428
+			],
+			"root_radius": 2.55,
+			"scale": 1.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-24",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.593396902084351,
+				0.708285689353943,
+				-0.382376253604889
+			],
+			"root_radius": 2.35,
+			"scale": 1.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 61.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/baobab.glb",
+			"base_scale": 0.996939750411738,
+			"id": "baobab-copy-25",
+			"kind": "baobab",
+			"label": "猴面包树 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.104339733719826,
+				0.780605018138886,
+				-0.616254091262817
+			],
+			"root_radius": 2.35,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 42.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-26",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.41538268327713,
+				0.909638345241547,
+				-0.00391888990998268
+			],
+			"root_radius": 2.45,
+			"scale": 0.8,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 52.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-27",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.111549124121666,
+				0.98566609621048,
+				-0.126567333936691
+			],
+			"root_radius": 2.45,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 52.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-28",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.340474039316177,
+				0.887790381908417,
+				0.309686571359634
+			],
+			"root_radius": 2.45,
+			"scale": 0.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 58.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-29",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.57496565580368,
+				0.766308307647705,
+				-0.286681145429611
+			],
+			"root_radius": 2.42,
+			"scale": 1.25,
+			"surface_tilt": 4.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -6.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/grass.glb",
+			"base_scale": 0.416341957259227,
+			"id": "grass-copy-30",
+			"kind": "grass",
+			"label": "草丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.306041985750198,
+				0.951809704303741,
+				0.0199152808636427
+			],
+			"root_radius": 2.4,
+			"scale": 1.4,
+			"surface_tilt": 4.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -1.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-31",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.499298840761185,
+				0.596736192703247,
+				0.628177285194397
+			],
+			"root_radius": 2.36,
+			"scale": 0.75,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 67.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/stone_path.glb",
+			"base_scale": 1.06702214533752,
+			"id": "stone_path-copy-32",
+			"kind": "stone_path",
+			"label": "石板路 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.494326025247574,
+				0.639138579368591,
+				0.589188992977142
+			],
+			"root_radius": 2.45,
+			"scale": 0.6,
+			"surface_tilt": 0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 130.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/pine_tree.glb",
+			"base_scale": 0.621043479357027,
+			"id": "pine_tree-copy-33",
+			"kind": "pine_tree",
+			"label": "针叶树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.811554729938507,
+				0.570433378219604,
+				0.126430585980415
+			],
+			"root_radius": 2.55,
+			"scale": 1.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-34",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.823127269744873,
+				0.553336679935455,
+				-0.127593070268631
+			],
+			"root_radius": 2.35,
+			"scale": 1.95,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 30.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/round_tree.glb",
+			"base_scale": 0.617965256707168,
+			"id": "round_tree-copy-35",
+			"kind": "round_tree",
+			"label": "圆冠树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.818254053592682,
+				0.459884583950043,
+				0.344915241003037
+			],
+			"root_radius": 2.35,
+			"scale": 1.75,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 92.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/baobab.glb",
+			"base_scale": 0.996939750411738,
+			"id": "baobab-copy-36",
+			"kind": "baobab",
+			"label": "猴面包树 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.721910953521729,
+				0.461235791444778,
+				0.515854835510254
+			],
+			"root_radius": 2.47,
+			"scale": 0.6,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -113.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/grass.glb",
+			"base_scale": 0.416341957259227,
+			"id": "grass-copy-37",
+			"kind": "grass",
+			"label": "草丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.565967917442322,
+				0.710463345050812,
+				0.418237030506134
+			],
+			"root_radius": 2.36,
+			"scale": 1.35,
+			"surface_tilt": 7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -1.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/grass.glb",
+			"base_scale": 0.416341957259227,
+			"id": "grass-copy-39",
+			"kind": "grass",
+			"label": "草丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.655941367149353,
+				0.489198178052902,
+				0.574827134609222
+			],
+			"root_radius": 2.35,
+			"scale": 1.45,
+			"surface_tilt": -9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -1.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-40",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.125821962952614,
+				0.785108804702759,
+				0.606442928314209
+			],
+			"root_radius": 2.48,
+			"scale": 1.25,
+			"surface_tilt": -10.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -19.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-41",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0566430278122425,
+				0.820273280143738,
+				0.569160223007202
+			],
+			"root_radius": 2.42,
+			"scale": 1.3,
+			"surface_tilt": -3.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -131.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-42",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.227988436818123,
+				0.887972772121429,
+				0.39940670132637
+			],
+			"root_radius": 2.38,
+			"scale": 1.3,
+			"surface_tilt": -3.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -115.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-43",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0339163281023502,
+				0.996250450611115,
+				-0.079591378569603
+			],
+			"root_radius": 2.43,
+			"scale": 1.3,
+			"surface_tilt": 8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -162.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-44",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.407774120569229,
+				0.898412048816681,
+				0.163021847605705
+			],
+			"root_radius": 2.48,
+			"scale": 1.3,
+			"surface_tilt": 4.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -115.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-45",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.289148569107056,
+				0.799859344959259,
+				0.525944948196411
+			],
+			"root_radius": 2.48,
+			"scale": 1.15,
+			"surface_tilt": -6.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -53.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-46",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.767073452472687,
+				0.330078542232513,
+				0.550133168697357
+			],
+			"root_radius": 2.4,
+			"scale": 1.15,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -46.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/fence.glb",
+			"base_scale": 1.0057473902797,
+			"id": "fence-copy-14",
+			"kind": "fence",
+			"label": "栅栏 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.348377346992493,
+				0.932302296161652,
+				0.0971890166401863
+			],
+			"root_radius": 2.46,
+			"scale": 0.8,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 50.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-15",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0803787112236023,
+				0.989899933338165,
+				-0.116779409348965
+			],
+			"root_radius": 2.45,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 70.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-47",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.868548333644867,
+				0.457794785499573,
+				0.189862430095673
+			],
+			"root_radius": 2.42,
+			"scale": 1.4,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -107.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-48",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.883559763431549,
+				0.44878751039505,
+				-0.133835643529892
+			],
+			"root_radius": 2.42,
+			"scale": 1.4,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": 84.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-49",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.77398419380188,
+				0.411570906639099,
+				0.481204569339752
+			],
+			"root_radius": 2.43,
+			"scale": 1.15,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 84.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-50",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.816896319389343,
+				0.566118896007538,
+				0.110407754778862
+			],
+			"root_radius": 2.43,
+			"scale": 1.15,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 84.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-51",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.513863563537598,
+				0.466926604509354,
+				0.719669222831726
+			],
+			"root_radius": 2.43,
+			"scale": 1.15,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -25.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-52",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.70487916469574,
+				0.202949151396751,
+				0.67967426776886
+			],
+			"root_radius": 2.35,
+			"scale": 1.15,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 141.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-53",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.489303797483444,
+				0.245994389057159,
+				0.836701035499573
+			],
+			"root_radius": 2.38,
+			"scale": 1.15,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-54",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.57996141910553,
+				-0.170105248689651,
+				0.796686291694641
+			],
+			"root_radius": 2.35,
+			"scale": 1.55,
+			"surface_tilt": 0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -8.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-55",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.798884749412537,
+				-0.149244159460068,
+				0.582674324512482
+			],
+			"root_radius": 2.35,
+			"scale": 1.55,
+			"surface_tilt": 0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -77.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_patch.glb",
+			"base_scale": 0.572085765726444,
+			"id": "flower_patch-copy-56",
+			"kind": "flower_patch",
+			"label": "花丛 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.873749136924744,
+				0.0884130448102951,
+				0.478273510932922
+			],
+			"root_radius": 2.35,
+			"scale": 1.55,
+			"surface_tilt": 0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -156.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-58",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.409220695495605,
+				0.346702337265015,
+				0.843999981880188
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-59",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.553010523319244,
+				0.762988567352295,
+				0.334705680608749
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-60",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.646547019481659,
+				0.760359704494476,
+				-0.0618883222341537
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-61",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.687733113765717,
+				0.660746872425079,
+				-0.300727277994156
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-62",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.880920827388763,
+				0.407946348190308,
+				-0.239913240075111
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-63",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.420072436332703,
+				0.372875839471817,
+				0.827346861362457
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 69.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/flower_cluster.glb",
+			"base_scale": 0.546347474879537,
+			"id": "flower_cluster-copy-64",
+			"kind": "flower_cluster",
+			"label": "花簇 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.837162435054779,
+				0.00860151927918196,
+				0.546886742115021
+			],
+			"root_radius": 2.35,
+			"scale": 0.7,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 101.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 0.25,
+			"glow_point": true,
+			"id": "king_light-copy-65",
+			"kind": "king_light",
+			"label": "发光点位 副本",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"locked": true,
+			"normal": [
+				-0.0633404552936554,
+				0.966539740562439,
+				0.24857385456562
+			],
+			"root_radius": 3.24,
+			"scale": 0.3,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		}
+	],
+	"scene_slug": "rose",
+	"version": 3,
+	"wheat_brightness": 0.88,
+	"wheat_saturation": 0.82,
+	"wheat_tone_version": 2
+}

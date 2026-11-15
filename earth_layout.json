@@ -1,0 +1,3556 @@
+{
+	"base_lighting": 1.45,
+	"deleted_ids": [
+		"wheat-copy-30",
+		"wheat-copy-29",
+		"wheat-copy-31",
+		"earth_wheat-05",
+		"wheat_field-copy-12",
+		"earth_wheat-04",
+		"earth_pine_tree-07",
+		"earth_round_tree-06"
+	],
+	"earth_light_yaw": 14.0,
+	"objects": [
+		{
+			"asset_path": "res://assets/3d/earth/earth_hill.glb",
+			"base_scale": 1.42,
+			"id": "earth_earth_hill-01",
+			"kind": "earth_hill",
+			"label": "山坡",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.585873246192932,
+				0.721253573894501,
+				-0.369521111249924
+			],
+			"root_radius": 2.65,
+			"scale": 0.95,
+			"surface_tilt": 1.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -3.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "earth_wheat_field-02",
+			"kind": "wheat_field",
+			"label": "麦田",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.878321468830109,
+				0.408931642770767,
+				0.247641578316689
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 4.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/grass_wheat_patch.glb",
+			"base_scale": 1.08,
+			"id": "earth_grass_wheat_patch-03",
+			"kind": "grass_wheat_patch",
+			"label": "草麦地",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.776712536811829,
+				0.54364413022995,
+				-0.318070262670517
+			],
+			"root_radius": 2.66,
+			"scale": 1.1,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 31.0
+		},
+		{
+			"asset_path": "res://assets/3d/generated/grass.glb",
+			"base_scale": 0.426302493075304,
+			"id": "earth_grass-08",
+			"kind": "grass",
+			"label": "草丛（点灯人）",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.167834281921387,
+				0.395823270082474,
+				0.902859687805176
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/quaternius_fox_animated.glb",
+			"base_scale": 0.112186597428265,
+			"id": "earth_fox-09",
+			"kind": "fox",
+			"label": "狐狸",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.781697511672974,
+				0.541975915431976,
+				-0.308562755584717
+			],
+			"root_radius": 2.81622791290283,
+			"scale": 1.0,
+			"selected_animation": "Idle_2",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/rose/seated_prince_unplaced.glb",
+			"base_scale": 0.58,
+			"id": "earth_seated_prince_origami-10",
+			"kind": "seated_prince_origami",
+			"label": "坐着的小王子",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.770513951778412,
+				0.637356102466583,
+				-0.00924863666296005
+			],
+			"root_radius": 2.63,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 56.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 1.0,
+			"glow_point": true,
+			"id": "king_light-11",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "sphere",
+			"light_on": false,
+			"light_range": 1.0,
+			"locked": false,
+			"normal": [
+				-0.350649297237396,
+				0.771428465843201,
+				0.530983209609985
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/characters/prince_rigged.glb",
+			"base_scale": 0.680570995648787,
+			"id": "earth_prince_character-12",
+			"kind": "prince_character",
+			"label": "小王子",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.904046833515167,
+				0.426515907049179,
+				-0.0279927365481853
+			],
+			"root_radius": 2.6,
+			"scale": 1.3,
+			"selected_animation": "ambient_idle",
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 124.0
+		},
+		{
+			"asset_path": "",
+			"base_scale": 1.0,
+			"brightness": 1.0,
+			"glow_point": true,
+			"id": "king_light-10",
+			"kind": "king_light",
+			"label": "发光点位",
+			"layout_mode": "sphere",
+			"light_on": true,
+			"light_range": 1.0,
+			"locked": false,
+			"normal": [
+				-0.350649297237396,
+				0.771428465843201,
+				0.530983209609985
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 0.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-09",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.852924048900604,
+				0.444796025753021,
+				0.273271262645721
+			],
+			"root_radius": 2.7,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-10",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.748372256755829,
+				0.524583876132965,
+				0.40589502453804
+			],
+			"root_radius": 2.64,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-11",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.729919850826263,
+				0.219998940825462,
+				0.647161185741425
+			],
+			"root_radius": 2.57,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -54.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-13",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.288221657276154,
+				0.258405566215515,
+				0.922038495540619
+			],
+			"root_radius": 2.64,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-14",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.703711688518524,
+				0.554585158824921,
+				0.444100350141525
+			],
+			"root_radius": 2.64,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-15",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.66580855846405,
+				0.586155414581299,
+				0.461650222539902
+			],
+			"root_radius": 2.64,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -104.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-16",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.300579190254211,
+				0.767458915710449,
+				0.566267609596252
+			],
+			"root_radius": 2.91,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -68.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-17",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.294753760099411,
+				0.741675972938538,
+				0.602525532245636
+			],
+			"root_radius": 2.78,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -80.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-18",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.389740586280823,
+				0.705294072628021,
+				0.592167735099792
+			],
+			"root_radius": 2.78,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -80.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-19",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0358371697366238,
+				0.817734062671661,
+				0.574479460716248
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -80.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-20",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.180522918701172,
+				0.595973253250122,
+				0.78244960308075
+			],
+			"root_radius": 2.83,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -80.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-21",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.072718620300293,
+				0.709965646266937,
+				0.700471818447113
+			],
+			"root_radius": 2.85,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-22",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.14752759039402,
+				0.551116764545441,
+				0.821283161640167
+			],
+			"root_radius": 2.72,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-23",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.272543013095856,
+				0.252530485391617,
+				0.928411900997162
+			],
+			"root_radius": 2.65,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-24",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.1363804936409,
+				0.232197150588036,
+				0.963060200214386
+			],
+			"root_radius": 2.66,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-25",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.351003229618073,
+				0.173407599329948,
+				0.920177459716797
+			],
+			"root_radius": 2.58,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-26",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.176744252443314,
+				-0.0280350465327501,
+				0.983857452869415
+			],
+			"root_radius": 2.48,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-27",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.515929639339447,
+				0.856487214565277,
+				0.0156975705176592
+			],
+			"root_radius": 2.83,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -173.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-28",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.281948804855347,
+				0.935896456241608,
+				-0.211193427443504
+			],
+			"root_radius": 2.99,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -82.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-32",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.251240372657776,
+				0.810086965560913,
+				-0.529752314090729
+			],
+			"root_radius": 2.96,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -45.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-33",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.318341851234436,
+				0.652300894260406,
+				-0.687867820262909
+			],
+			"root_radius": 2.88,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -45.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-34",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.101791501045227,
+				0.643294811248779,
+				-0.758821606636047
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -93.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-35",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0945205762982368,
+				0.934737980365753,
+				-0.34253591299057
+			],
+			"root_radius": 3.05,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-36",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.5317223072052,
+				0.495406597852707,
+				-0.686908841133118
+			],
+			"root_radius": 2.54,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-37",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.189737126231194,
+				0.698923707008362,
+				-0.689569115638733
+			],
+			"root_radius": 2.88,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-38",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.336185544729233,
+				0.743459701538086,
+				-0.578140914440155
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-39",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.22947196662426,
+				0.959685325622559,
+				-0.16231681406498
+			],
+			"root_radius": 3.05,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-40",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.553142607212067,
+				0.764032542705536,
+				-0.332095742225647
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-41",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.384344339370728,
+				0.895456075668335,
+				-0.224583715200424
+			],
+			"root_radius": 2.86,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-42",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.523906528949738,
+				0.84808337688446,
+				0.0792252644896507
+			],
+			"root_radius": 2.89,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-43",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.212103635072708,
+				0.970149159431458,
+				0.117570251226425
+			],
+			"root_radius": 3.01,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-44",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0163096468895674,
+				0.932944297790527,
+				0.359651118516922
+			],
+			"root_radius": 2.99,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-45",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.049591388553381,
+				0.501211166381836,
+				-0.863902807235718
+			],
+			"root_radius": 2.76,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-46",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.712069094181061,
+				0.701838076114655,
+				0.0195177122950554
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -68.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-47",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.621013760566711,
+				0.713297545909882,
+				0.32488226890564
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -68.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-48",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.561360776424408,
+				0.708216667175293,
+				0.428139388561249
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -68.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-49",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.374290585517883,
+				0.623269081115723,
+				0.686616539955139
+			],
+			"root_radius": 2.82,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-50",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.320503979921341,
+				0.576621294021606,
+				0.75152188539505
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-51",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.176629662513733,
+				0.418419688940048,
+				0.890913546085358
+			],
+			"root_radius": 2.76,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-52",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0973773077130318,
+				-0.0487777069211006,
+				0.994051516056061
+			],
+			"root_radius": 2.49,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-53",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.457943797111511,
+				0.329420059919357,
+				0.825693666934967
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-54",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.983562588691711,
+				-0.094464585185051,
+				0.153886750340462
+			],
+			"root_radius": 2.45,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-55",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				-0.0901733264327049,
+				0.167803466320038,
+				0.981687724590302
+			],
+			"root_radius": 2.64,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-56",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.789622247219086,
+				0.47944188117981,
+				0.382925808429718
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-57",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.707922220230103,
+				0.232652723789215,
+				0.666872501373291
+			],
+			"root_radius": 2.7,
+			"scale": 1.0,
+			"surface_tilt": 9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-58",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.678437650203705,
+				0.0329945050179958,
+				0.733916699886322
+			],
+			"root_radius": 2.6,
+			"scale": 1.0,
+			"surface_tilt": 6.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -92.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-59",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0283785928040743,
+				-0.2270138412714,
+				0.973478019237518
+			],
+			"root_radius": 2.37,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-60",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.286182105541229,
+				-0.36948624253273,
+				0.884069979190826
+			],
+			"root_radius": 2.45,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-61",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.136807978153229,
+				-0.363195538520813,
+				0.921614170074463
+			],
+			"root_radius": 2.42,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-62",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0877107381820679,
+				-0.49211174249649,
+				0.86610209941864
+			],
+			"root_radius": 2.38,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-63",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.205624893307686,
+				-0.488606363534927,
+				0.84792822599411
+			],
+			"root_radius": 2.39,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-64",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.304225444793701,
+				-0.233231455087662,
+				0.923607051372528
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -109.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-65",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.425545066595078,
+				-0.0502208136022091,
+				0.903542637825012
+			],
+			"root_radius": 2.45,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-66",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0877542272210121,
+				-0.978263735771179,
+				0.187881112098694
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-67",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.409319281578064,
+				-0.697957098484039,
+				0.587633907794952
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-68",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0586909428238869,
+				-0.722945690155029,
+				0.688407599925995
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-69",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.0722479745745659,
+				-0.847701728343964,
+				0.525530338287354
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-70",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.337249964475632,
+				-0.868919551372528,
+				0.362272351980209
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-71",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.957395970821381,
+				0.0221361890435219,
+				-0.28792878985405
+			],
+			"root_radius": 2.56,
+			"scale": 1.0,
+			"surface_tilt": -7.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-72",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.904927432537079,
+				-0.425047785043716,
+				0.0209950972348452
+			],
+			"root_radius": 2.36,
+			"scale": 0.95,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-73",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.312054544687271,
+				-0.712383806705475,
+				0.628594756126404
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-74",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.261331796646118,
+				0.169852539896965,
+				0.950187265872955
+			],
+			"root_radius": 2.57,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -159.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-75",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.562891125679016,
+				-0.446493834257126,
+				0.695555150508881
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-76",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.762093603610992,
+				-0.20319476723671,
+				0.614756286144257
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-77",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.881897926330566,
+				-0.353231161832809,
+				0.312224090099335
+			],
+			"root_radius": 2.38,
+			"scale": 1.0,
+			"surface_tilt": -11.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-78",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.878890931606293,
+				0.232313334941864,
+				0.416630923748016
+			],
+			"root_radius": 2.63,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-79",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.893827021121979,
+				0.440274059772491,
+				0.0850414037704468
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-80",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.772050082683563,
+				0.564275920391083,
+				-0.292457669973373
+			],
+			"root_radius": 2.79,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-81",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.909134566783905,
+				0.351797521114349,
+				-0.222963824868202
+			],
+			"root_radius": 2.72,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-82",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.985185623168945,
+				0.033237487077713,
+				-0.168239891529083
+			],
+			"root_radius": 2.58,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-83",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.895260870456696,
+				-0.0127412471920252,
+				0.44536018371582
+			],
+			"root_radius": 2.49,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-84",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.987399458885193,
+				0.0234242044389248,
+				0.15650437772274
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-85",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.894000828266144,
+				0.245564460754395,
+				0.374780863523483
+			],
+			"root_radius": 2.55,
+			"scale": 1.0,
+			"surface_tilt": -15.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-86",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.974089562892914,
+				0.00630387756973505,
+				-0.226074814796448
+			],
+			"root_radius": 2.5,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-87",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.86881011724472,
+				0.287713378667831,
+				-0.402976542711258
+			],
+			"root_radius": 2.61,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -108.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-88",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.575623154640198,
+				0.60694283246994,
+				-0.547976672649384
+			],
+			"root_radius": 2.61,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -108.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-89",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.840252041816711,
+				0.442391693592072,
+				0.313474267721176
+			],
+			"root_radius": 2.65,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -31.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-90",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.65625,
+				0.59259033203125,
+				0.46708956360817
+			],
+			"root_radius": 2.79,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-91",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.765540719032288,
+				0.249355494976044,
+				0.593101441860199
+			],
+			"root_radius": 2.64,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-92",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.56757652759552,
+				0.118379414081573,
+				0.814765751361847
+			],
+			"root_radius": 2.64,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-93",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.38691833615303,
+				0.914678990840912,
+				-0.116861343383789
+			],
+			"root_radius": 2.96,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-94",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.46084663271904,
+				0.529585361480713,
+				-0.712151527404785
+			],
+			"root_radius": 2.85,
+			"scale": 0.9,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-95",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.497134864330292,
+				-0.801148593425751,
+				0.333193421363831
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-96",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.259052604436874,
+				-0.956033706665039,
+				0.13744580745697
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-97",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.00522451102733612,
+				-0.993645906448364,
+				-0.112430259585381
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-98",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.492913812398911,
+				-0.868406534194946,
+				-0.0539079010486603
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-99",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.214385598897934,
+				-0.86193060874939,
+				-0.45947191119194
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-100",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.798294603824615,
+				0.169886693358421,
+				-0.577809870243073
+			],
+			"root_radius": 2.65,
+			"scale": 1.0,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-101",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.802095711231232,
+				0.331523716449738,
+				-0.496723800897598
+			],
+			"root_radius": 2.68,
+			"scale": 1.0,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-102",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.943664789199829,
+				0.0491778403520584,
+				-0.327228486537933
+			],
+			"root_radius": 2.54,
+			"scale": 1.0,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-103",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.994174897670746,
+				-0.0183004904538393,
+				-0.106213986873627
+			],
+			"root_radius": 2.44,
+			"scale": 0.75,
+			"surface_tilt": -0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -9.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-104",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.386349260807037,
+				0.867944419384003,
+				-0.312100559473038
+			],
+			"root_radius": 2.96,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-105",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0707539990544319,
+				0.95100349187851,
+				0.300975620746613
+			],
+			"root_radius": 2.99,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -64.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-106",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.00875508785247803,
+				0.998999953269959,
+				-0.0438465997576714
+			],
+			"root_radius": 3.1,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-107",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.182283982634544,
+				0.857313394546509,
+				0.48144194483757
+			],
+			"root_radius": 2.98,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -62.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-108",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.852558553218842,
+				-0.346516728401184,
+				-0.391241788864136
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-109",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.666574716567993,
+				-0.613906145095825,
+				-0.422844380140305
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-110",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.707943558692932,
+				-0.701548874378204,
+				-0.0815177708864212
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-111",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.390880048274994,
+				-0.908721923828125,
+				-0.146414682269096
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-112",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.302154242992401,
+				-0.759360492229462,
+				-0.576259076595306
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-113",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.147641018033028,
+				-0.534781813621521,
+				-0.831991910934448
+			],
+			"root_radius": 2.38,
+			"scale": 1.0,
+			"surface_tilt": 5.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-114",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.232819706201553,
+				-0.653130173683167,
+				-0.72056645154953
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 5.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-115",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.573037326335907,
+				-0.702222585678101,
+				-0.422506511211395
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 5.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-116",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.504902899265289,
+				-0.497304946184158,
+				-0.705521643161774
+			],
+			"root_radius": 2.4,
+			"scale": 1.0,
+			"surface_tilt": 5.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-117",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.226484730839729,
+				-0.266905725002289,
+				-0.936731576919556
+			],
+			"root_radius": 2.4,
+			"scale": 1.0,
+			"surface_tilt": 5.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-118",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.148138538002968,
+				-0.115398414433002,
+				-0.982210874557495
+			],
+			"root_radius": 2.47,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-119",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.301499217748642,
+				-0.0354725420475006,
+				-0.952806353569031
+			],
+			"root_radius": 2.46,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-120",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.573222875595093,
+				-0.147428378462791,
+				-0.80602753162384
+			],
+			"root_radius": 2.5,
+			"scale": 1.0,
+			"surface_tilt": 10.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-121",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.856937348842621,
+				-0.456444650888443,
+				-0.239409133791924
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": 10.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-122",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.775170981884003,
+				-0.12165118008852,
+				-0.619928240776062
+			],
+			"root_radius": 2.47,
+			"scale": 1.0,
+			"surface_tilt": 10.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-123",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.761429488658905,
+				0.196989074349403,
+				-0.617592573165894
+			],
+			"root_radius": 2.57,
+			"scale": 1.0,
+			"surface_tilt": 10.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-124",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.221890524029732,
+				0.0486015975475311,
+				-0.97385960817337
+			],
+			"root_radius": 2.57,
+			"scale": 1.0,
+			"surface_tilt": 10.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-125",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.566964268684387,
+				0.133910864591599,
+				-0.812784969806671
+			],
+			"root_radius": 2.57,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-126",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.78087705373764,
+				0.0110726468265057,
+				-0.624586701393127
+			],
+			"root_radius": 2.5,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-127",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.143900856375694,
+				0.173037678003311,
+				-0.974346220493317
+			],
+			"root_radius": 2.65,
+			"scale": 0.9,
+			"surface_tilt": 0.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-128",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.150176331400871,
+				0.391136020421982,
+				-0.907997608184814
+			],
+			"root_radius": 2.73,
+			"scale": 0.9,
+			"surface_tilt": 16.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-129",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.970406353473663,
+				-0.181799739599228,
+				0.158935397863388
+			],
+			"root_radius": 2.53,
+			"scale": 0.95,
+			"surface_tilt": -11.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -169.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-130",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.925214886665344,
+				-0.228476732969284,
+				-0.302945256233215
+			],
+			"root_radius": 2.46,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-131",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.632537126541138,
+				0.304388374090195,
+				-0.712210953235626
+			],
+			"root_radius": 2.76,
+			"scale": 0.95,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-132",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.857196271419525,
+				0.305498898029327,
+				-0.414590209722519
+			],
+			"root_radius": 2.64,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-133",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.970061957836151,
+				0.0391408950090408,
+				-0.23968280851841
+			],
+			"root_radius": 2.65,
+			"scale": 1.0,
+			"surface_tilt": -7.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -132.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-134",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.555058062076569,
+				0.831705451011658,
+				-0.0132896713912487
+			],
+			"root_radius": 2.94,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -91.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-136",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.89564323425293,
+				-0.444716781377792,
+				-0.00709377974271774
+			],
+			"root_radius": 2.36,
+			"scale": 0.95,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-137",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.709495425224304,
+				-0.685153901576996,
+				-0.164864912629128
+			],
+			"root_radius": 2.36,
+			"scale": 0.95,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-138",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.907712459564209,
+				-0.306017518043518,
+				0.287073820829391
+			],
+			"root_radius": 2.36,
+			"scale": 0.95,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-139",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.865978360176086,
+				-0.35339167714119,
+				-0.353830307722092
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-140",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.669811844825745,
+				-0.547893047332764,
+				-0.501164078712463
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -37.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-141",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.887491166591644,
+				-0.434367686510086,
+				0.153897032141685
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -37.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-142",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.939193964004517,
+				-0.264259070158005,
+				0.219275876879692
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -37.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-143",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.987961292266846,
+				-0.151997476816177,
+				0.0287958756089211
+			],
+			"root_radius": 2.36,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -37.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-144",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.983878254890442,
+				0.0269843433052301,
+				-0.176792234182358
+			],
+			"root_radius": 2.6,
+			"scale": 1.0,
+			"surface_tilt": -8.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -137.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-145",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.777511596679688,
+				0.0143894534558058,
+				-0.628703951835632
+			],
+			"root_radius": 2.5,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-146",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.793277323246002,
+				0.145025432109833,
+				-0.59133642911911
+			],
+			"root_radius": 2.52,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-147",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.857640624046326,
+				0.371766149997711,
+				-0.35530623793602
+			],
+			"root_radius": 2.71,
+			"scale": 0.75,
+			"surface_tilt": -9.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-148",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.834929883480072,
+				0.361224979162216,
+				-0.415221273899078
+			],
+			"root_radius": 2.71,
+			"scale": 0.75,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -45.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-149",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.678186178207397,
+				0.485865980386734,
+				-0.551359951496124
+			],
+			"root_radius": 2.76,
+			"scale": 0.6,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -128.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-150",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.301854819059372,
+				0.444358885288239,
+				-0.843462407588959
+			],
+			"root_radius": 2.8,
+			"scale": 0.95,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-151",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.266903281211853,
+				0.313844501972198,
+				-0.911188423633575
+			],
+			"root_radius": 2.7,
+			"scale": 0.95,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-152",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.353986650705338,
+				0.208580508828163,
+				-0.911694943904877
+			],
+			"root_radius": 2.68,
+			"scale": 0.95,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-153",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0197718180716038,
+				0.271517306566238,
+				-0.962230503559113
+			],
+			"root_radius": 2.68,
+			"scale": 0.95,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-154",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0292705148458481,
+				-0.114576414227486,
+				-0.992983162403107
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-155",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.203321248292923,
+				0.0817810446023941,
+				-0.975690722465515
+			],
+			"root_radius": 2.52,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-156",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.410918980836868,
+				-0.0447161160409451,
+				-0.910574615001678
+			],
+			"root_radius": 2.57,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-157",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.177729919552803,
+				0.22172923386097,
+				-0.958774387836456
+			],
+			"root_radius": 2.67,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -174.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-158",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.163546934723854,
+				-0.339527606964111,
+				-0.926268577575684
+			],
+			"root_radius": 2.51,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -174.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-159",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0769629627466202,
+				-0.410019010305405,
+				-0.90882408618927
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-160",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.224308907985687,
+				-0.0102413920685649,
+				-0.974464297294617
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -180.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-161",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.183674946427345,
+				-0.482395976781845,
+				-0.856479823589325
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -56.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-162",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.278945833444595,
+				-0.748798191547394,
+				-0.601240813732147
+			],
+			"root_radius": 2.43,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -56.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-163",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.00442293751984835,
+				-0.868808329105377,
+				-0.495128810405731
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": 3.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -56.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-164",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0642785429954529,
+				-0.966479778289795,
+				-0.248566210269928
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-165",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.266200721263886,
+				-0.912285149097443,
+				-0.31124421954155
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-166",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.412371069192886,
+				-0.872687518596649,
+				-0.261470049619675
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-167",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.260318100452423,
+				-0.959387242794037,
+				0.108676992356777
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-168",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.0178389828652143,
+				-0.936433017253876,
+				0.350392609834671
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-169",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				-0.258842438459396,
+				-0.944533467292786,
+				0.202131569385529
+			],
+			"root_radius": 2.35,
+			"scale": 1.0,
+			"surface_tilt": -2.5,
+			"upright": true,
+			"visible": true,
+			"yaw": -139.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-170",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.538947761058807,
+				0.302220195531845,
+				-0.786255896091461
+			],
+			"root_radius": 2.76,
+			"scale": 0.95,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -74.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-171",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": false,
+			"normal": [
+				0.0506329722702503,
+				0.947759807109833,
+				0.314940750598907
+			],
+			"root_radius": 2.99,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -64.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-172",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.207486659288406,
+				0.87470555305481,
+				0.43799489736557
+			],
+			"root_radius": 2.98,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -133.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-173",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.122976161539555,
+				0.938679993152618,
+				0.32211309671402
+			],
+			"root_radius": 2.98,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -168.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-174",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.23181089758873,
+				0.819349884986877,
+				0.524337291717529
+			],
+			"root_radius": 2.98,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -168.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-175",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.509067475795746,
+				0.860549092292786,
+				-0.0174822211265564
+			],
+			"root_radius": 2.71,
+			"scale": 1.0,
+			"surface_tilt": -12.0,
+			"upright": true,
+			"visible": true,
+			"yaw": 90.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-176",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.660225212574005,
+				0.187497213482857,
+				0.727287769317627
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -54.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-177",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.821304976940155,
+				0.297637581825256,
+				0.486693024635315
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -34.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-178",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.853599071502686,
+				0.342913895845413,
+				0.392146319150925
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -34.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-179",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.617647647857666,
+				0.197571694850922,
+				0.761233747005463
+			],
+			"root_radius": 2.62,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -34.0
+		},
+		{
+			"asset_path": "res://assets/3d/earth/wheat_field.glb",
+			"base_scale": 1.38,
+			"id": "wheat_field-copy-180",
+			"kind": "wheat_field",
+			"label": "麦田 副本",
+			"layout_mode": "sphere",
+			"locked": true,
+			"normal": [
+				0.304212361574173,
+				-0.0496375411748886,
+				0.951310157775879
+			],
+			"root_radius": 2.5,
+			"scale": 1.0,
+			"surface_tilt": 0.0,
+			"upright": true,
+			"visible": true,
+			"yaw": -34.0
+		}
+	],
+	"player_height_schema": 2,
+	"player_item_height_lock_version": 1,
+	"player_item_heights": {},
+	"player_item_scales": {},
+	"player_item_support_heights": {},
+	"scene_slug": "earth",
+	"version": 3,
+	"wheat_brightness": 0.85,
+	"wheat_saturation": 0.85,
+	"wheat_tone_version": 2
+}

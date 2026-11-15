@@ -1,0 +1,338 @@
+{
+  "star_rose": {
+    "source_box": [
+      30,
+      28,
+      188,
+      176
+    ],
+    "output_size": [
+      157,
+      148
+    ]
+  },
+  "star_king": {
+    "source_box": [
+      196,
+      28,
+      345,
+      176
+    ],
+    "output_size": [
+      149,
+      148
+    ]
+  },
+  "star_vain": {
+    "source_box": [
+      357,
+      27,
+      506,
+      176
+    ],
+    "output_size": [
+      149,
+      149
+    ]
+  },
+  "star_earth": {
+    "source_box": [
+      519,
+      29,
+      668,
+      176
+    ],
+    "output_size": [
+      149,
+      147
+    ]
+  },
+  "star_merchant": {
+    "source_box": [
+      679,
+      29,
+      829,
+      176
+    ],
+    "output_size": [
+      150,
+      147
+    ]
+  },
+  "star_pointlighter": {
+    "source_box": [
+      841,
+      28,
+      990,
+      176
+    ],
+    "output_size": [
+      149,
+      148
+    ]
+  },
+  "backpack_closed": {
+    "source_box": [
+      14,
+      190,
+      214,
+      425
+    ],
+    "output_size": [
+      200,
+      201
+    ]
+  },
+  "backpack_open": {
+    "source_box": [
+      247,
+      187,
+      447,
+      425
+    ],
+    "output_size": [
+      200,
+      227
+    ]
+  },
+  "backpack_full": {
+    "source_box": [
+      477,
+      187,
+      677,
+      425
+    ],
+    "output_size": [
+      200,
+      233
+    ]
+  },
+  "constellation_seventh": {
+    "source_box": [
+      674,
+      184,
+      1005,
+      426
+    ],
+    "output_size": [
+      331,
+      242
+    ]
+  },
+  "fragment_rose": {
+    "source_box": [
+      41,
+      422,
+      158,
+      602
+    ],
+    "output_size": [
+      117,
+      177
+    ]
+  },
+  "fragment_sun": {
+    "source_box": [
+      196,
+      422,
+      345,
+      602
+    ],
+    "output_size": [
+      149,
+      178
+    ]
+  },
+  "fragment_petal": {
+    "source_box": [
+      379,
+      422,
+      489,
+      602
+    ],
+    "output_size": [
+      110,
+      179
+    ]
+  },
+  "fragment_fox": {
+    "source_box": [
+      529,
+      422,
+      665,
+      602
+    ],
+    "output_size": [
+      136,
+      180
+    ]
+  },
+  "fragment_lamp": {
+    "source_box": [
+      702,
+      422,
+      829,
+      602
+    ],
+    "output_size": [
+      127,
+      180
+    ]
+  },
+  "fragment_flame": {
+    "source_box": [
+      875,
+      422,
+      986,
+      602
+    ],
+    "output_size": [
+      111,
+      159
+    ]
+  },
+  "fragment_dome": {
+    "source_box": [
+      32,
+      604,
+      166,
+      792
+    ],
+    "output_size": [
+      134,
+      188
+    ]
+  },
+  "fragment_crown": {
+    "source_box": [
+      197,
+      604,
+      334,
+      792
+    ],
+    "output_size": [
+      137,
+      136
+    ]
+  },
+  "fragment_mirror": {
+    "source_box": [
+      353,
+      604,
+      501,
+      792
+    ],
+    "output_size": [
+      148,
+      188
+    ]
+  },
+  "fragment_wheat": {
+    "source_box": [
+      528,
+      604,
+      660,
+      792
+    ],
+    "output_size": [
+      132,
+      188
+    ]
+  },
+  "fragment_ledger": {
+    "source_box": [
+      683,
+      604,
+      848,
+      792
+    ],
+    "output_size": [
+      165,
+      188
+    ]
+  },
+  "fragment_chair": {
+    "source_box": [
+      865,
+      604,
+      995,
+      792
+    ],
+    "output_size": [
+      130,
+      188
+    ]
+  },
+  "source_rose": {
+    "source_box": [
+      27,
+      810,
+      178,
+      953
+    ],
+    "output_size": [
+      151,
+      143
+    ]
+  },
+  "source_king": {
+    "source_box": [
+      192,
+      810,
+      347,
+      953
+    ],
+    "output_size": [
+      155,
+      143
+    ]
+  },
+  "source_vain": {
+    "source_box": [
+      360,
+      810,
+      502,
+      953
+    ],
+    "output_size": [
+      142,
+      143
+    ]
+  },
+  "source_earth": {
+    "source_box": [
+      519,
+      810,
+      677,
+      953
+    ],
+    "output_size": [
+      158,
+      143
+    ]
+  },
+  "source_merchant": {
+    "source_box": [
+      692,
+      810,
+      836,
+      953
+    ],
+    "output_size": [
+      144,
+      143
+    ]
+  },
+  "source_pointlighter": {
+    "source_box": [
+      867,
+      810,
+      979,
+      953
+    ],
+    "output_size": [
+      112,
+      143
+    ]
+  }
+}
