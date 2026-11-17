@@ -52,6 +52,20 @@ jobs:
             'templates/version.txt' \
             -d "$TEMPLATE_DIR"
 
+      - name: Verify public player template contains no saved placements
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("player_layout.json").read_text(encoding="utf-8"))
+          assert data.get("objects", []) == [], "public template contains saved objects"
+          assert data.get("light_strings", []) == [], "public template contains saved light strings"
+          assert data.get("deleted_ids", []) == [], "public template contains deleted object ids"
+          assert data.get("player_night", False) is False, "public template contains saved night state"
+          PY
+
       - name: Import and export the Web build
         shell: bash
         run: |

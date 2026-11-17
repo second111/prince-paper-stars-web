@@ -21697,6 +21697,10 @@ func _load_3d_editor_layout() -> void:
 		layout_path = "res://player_layout.json"
 	elif not FileAccess.file_exists(layout_path):
 		layout_path = "res://%s_layout.json" % layout_key
+	var resource_player_template := (
+		layout_key == "player"
+		and layout_path == "res://player_layout.json"
+	)
 	if not FileAccess.file_exists(layout_path):
 		return
 	var file := FileAccess.open(layout_path, FileAccess.READ)
@@ -21828,8 +21832,9 @@ func _load_3d_editor_layout() -> void:
 		)
 	_sync_planet_base_lighting_control()
 	_sync_earth_wheat_controls()
-	if template_only:
-		_save_onboarding_state(false)
+	if template_only or resource_player_template:
+		if template_only:
+			_save_onboarding_state(false)
 		return
 	var saved_objects = parsed.get("objects", [])
 	if typeof(saved_objects) != TYPE_ARRAY:
