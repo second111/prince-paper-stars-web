@@ -11161,7 +11161,10 @@ func _load_king_model() -> void:
 	king_model_3d.name = "GeneratedKingPlanet"
 	king_model_3d.visible = false
 	stage_3d.add_child(king_model_3d)
-	king_editable_objects.clear()
+	king_editable_objects = []
+	editable_3d_objects = king_editable_objects
+	selected_editable_index = -1
+	deleted_editable_ids = []
 	editable_serial = 0
 
 	var base_model := _instantiate_generated_model(KING_BASE_3D)
@@ -28753,8 +28756,11 @@ func _show_king_3d() -> void:
 		return
 	_set_planet_loading_progress(98.0)
 	king_model_3d.visible = true
-	editable_3d_objects = king_editable_objects
-	deleted_editable_ids = king_deleted_editable_ids
+	editable_3d_objects = []
+	editable_3d_objects.assign(king_editable_objects)
+	deleted_editable_ids = []
+	deleted_editable_ids.assign(king_deleted_editable_ids)
+	editable_serial = _highest_editable_serial(editable_3d_objects)
 	model_3d = king_model_3d
 	selected_editable_index = king_selected_editable_index
 	_apply_king_environment()
