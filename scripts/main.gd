@@ -10799,6 +10799,13 @@ func _load_pointlighter_model() -> void:
 	if pointlighter_model_loading:
 		return
 	pointlighter_model_loading = true
+	# This scene is built outside the generated-planet cache. Start from an
+	# independent editable state so stale records from another planet cannot
+	# shift the IDs used by pointlighter_layout.json and duplicate its objects.
+	editable_3d_objects = []
+	selected_editable_index = -1
+	deleted_editable_ids = []
+	editable_serial = 0
 	model_3d = Node3D.new()
 	model_3d.name = "GeneratedPointlighterPlanet"
 	stage_3d.add_child(model_3d)
@@ -16170,11 +16177,14 @@ func _show_generated_planet_3d(planet_name: String, request_id: int) -> void:
 	if editor_earth_wheat_controls != null:
 		editor_earth_wheat_controls.visible = slug == "earth"
 	model_3d = generated_planet_models.get(slug) as Node3D
+	editable_3d_objects = []
 	editable_3d_objects.assign(
 		generated_planet_editable_objects.get(slug, [])
 	)
 	selected_editable_index = int(generated_planet_selected_indices.get(slug, -1))
+	deleted_editable_ids = []
 	deleted_editable_ids.assign(generated_planet_deleted_ids.get(slug, []))
+	editable_serial = _highest_editable_serial(editable_3d_objects)
 	if model_3d == null:
 		_finish_planet_loading()
 		_restore_planet_map_instant()
@@ -16802,6 +16812,19 @@ func _capture_current_editable_state() -> void:
 		generated_planet_editable_objects[current_3d_scene] = editable_3d_objects
 		generated_planet_selected_indices[current_3d_scene] = selected_editable_index
 		generated_planet_deleted_ids[current_3d_scene] = deleted_editable_ids
+
+
+func _highest_editable_serial(objects: Array) -> int:
+	var highest := 0
+	for record in objects:
+		if typeof(record) != TYPE_DICTIONARY:
+			continue
+		var id := String(record.get("id", ""))
+		var separator := id.rfind("-")
+		if separator < 0 or separator + 1 >= id.length():
+			continue
+		highest = maxi(highest, int(id.substr(separator + 1)))
+	return highest
 
 
 func _yield_king_model_build(progress: float) -> void:
@@ -28660,8 +28683,11 @@ func _show_pointlighter_3d() -> void:
 	if editor_earth_wheat_controls != null:
 		editor_earth_wheat_controls.visible = false
 	model_3d = pointlighter_model_3d
-	editable_3d_objects = pointlighter_editable_objects
-	deleted_editable_ids = pointlighter_deleted_editable_ids
+	editable_3d_objects = []
+	editable_3d_objects.assign(pointlighter_editable_objects)
+	deleted_editable_ids = []
+	deleted_editable_ids.assign(pointlighter_deleted_editable_ids)
+	editable_serial = _highest_editable_serial(editable_3d_objects)
 	selected_editable_index = pointlighter_selected_editable_index
 	if pointlighter_model_3d != null:
 		pointlighter_model_3d.visible = true
@@ -28714,8 +28740,11 @@ func _show_king_3d() -> void:
 	if pointlighter_model_3d != null:
 		pointlighter_model_3d.visible = false
 	_hide_generated_planet_roots()
-	editable_3d_objects = king_editable_objects
-	deleted_editable_ids = king_deleted_editable_ids
+	editable_3d_objects = []
+	editable_3d_objects.assign(king_editable_objects)
+	deleted_editable_ids = []
+	deleted_editable_ids.assign(king_deleted_editable_ids)
+	editable_serial = _highest_editable_serial(editable_3d_objects)
 	selected_editable_index = king_selected_editable_index
 	model_3d = king_model_3d
 	await _load_king_model()
