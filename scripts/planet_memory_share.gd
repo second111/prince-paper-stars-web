@@ -18,6 +18,9 @@ var _serial := 0
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	if OS.has_feature("web"):
+		_running = true
+		return
 	_start_local_server()
 
 
@@ -64,6 +67,8 @@ func attach_image(memory_id: String, image: Image) -> void:
 
 
 func get_share_url(memory_id: String) -> String:
+	if OS.has_feature("web"):
+		return _build_web_share_url(memory_id)
 	return "http://%s:%d/m/%s" % [_lan_ip, _port, memory_id]
 
 
@@ -130,6 +135,52 @@ func _start_local_server() -> void:
 			return
 	_running = false
 	push_warning("Planet memory share page could not start a local HTTP server.")
+
+
+func _build_web_share_url(memory_id: String) -> String:
+	if not _shares.has(memory_id):
+		return ""
+	var memory: Dictionary = _shares[memory_id]
+	return _web_share_page_url() + "?d=" + _encode_web_payload(memory)
+
+
+func _encode_web_payload(memory: Dictionary) -> String:
+	var payload := JSON.stringify({
+		"n": String(memory.get("planet_name", "我的星球")),
+		"c": String(memory.get("classification", "星球手记")),
+		"a": String(memory.get("narrative", "")),
+		"b": String(memory.get("action", "")),
+		"e": String(memory.get("echo", "")),
+		"d": String(memory.get("date", "")),
+	})
+	var compressed := payload.to_utf8_buffer().compress(
+		FileAccess.COMPRESSION_GZIP
+	)
+	return _base64_url(compressed)
+
+
+func _web_share_page_url() -> String:
+	var current_url := String(
+		JavaScriptBridge.eval(
+			"window.location.href.split('?')[0].split('#')[0]",
+			true
+		)
+	)
+	if current_url.ends_with("index.html"):
+		current_url = current_url.trim_suffix("index.html")
+	elif not current_url.ends_with("/"):
+		var slash := current_url.rfind("/")
+		current_url = current_url.substr(0, slash + 1)
+	return current_url + "share.html"
+
+
+func _base64_url(data: PackedByteArray) -> String:
+	return (
+		Marshalls.raw_to_base64(data)
+		.replace("+", "-")
+		.replace("/", "_")
+		.replace("=", "")
+	)
 
 
 func _preferred_lan_ip() -> String:

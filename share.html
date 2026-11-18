@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>星球手记分享卡 | 小王子：纸间星旅</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --night: #091526;
+      --paper: #f2e5c4;
+      --ink: #3f2c20;
+      --gold: #bb8b43;
+      --blue: #17324f;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      padding: 24px 14px 46px;
+      background:
+        radial-gradient(circle at 15% 10%, #294c70 0, #14283f 38%, #081321 100%);
+      color: var(--paper);
+      font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+    }
+    main { width: min(760px, 100%); margin: auto; text-align: center; }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: #d5ba7b;
+      font-size: 13px;
+      letter-spacing: .14em;
+    }
+    h1 { margin: 0 0 18px; font-size: clamp(25px, 6vw, 38px); font-weight: 500; }
+    #card {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 18px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, .46);
+      background: var(--blue);
+    }
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+    a, button {
+      appearance: none;
+      border: 1px solid rgba(216, 184, 115, .7);
+      border-radius: 999px;
+      padding: 12px 22px;
+      color: #f7ebd0;
+      background: rgba(15, 37, 59, .9);
+      font: inherit;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    button { display: none; }
+    .status { margin-top: 18px; color: #b8c7d5; font-size: 14px; line-height: 1.7; }
+    .error { color: #ffd0c4; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">THE LITTLE PRINCE | PLANET MEMORY</p>
+    <h1 id="heading">正在展开星球手记</h1>
+    <img id="card" alt="星球手记分享卡">
+    <div class="actions">
+      <a id="download" download="planet-memory.png">保存这张图</a>
+      <a href="./">打开游戏</a>
+    </div>
+    <p id="status" class="status">二维码中的内容只在浏览器中解析，不会上传到服务器。</p>
+  </main>
+  <script>
+    const card = document.querySelector("#card");
+    const download = document.querySelector("#download");
+    const heading = document.querySelector("#heading");
+    const status = document.querySelector("#status");
+
+    function decodeBase64Url(value) {
+      const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
+      const padded = normalized + "=".repeat((4 - normalized.length % 4) % 4);
+      const binary = atob(padded);
+      return Uint8Array.from(binary, character => character.charCodeAt(0));
+    }
+
+    async function decompressPayload(value) {
+      const bytes = decodeBase64Url(value);
+      if (!("DecompressionStream" in window)) {
+        throw new Error("当前浏览器不支持分享卡解压，请使用最新版 Chrome、Edge 或 Safari。");
+      }
+      const stream = new Blob([bytes]).stream().pipeThrough(
+        new DecompressionStream("gzip")
+      );
+      return JSON.parse(await new Response(stream).text());
+    }
+
+    function wrapLines(context, text, maxWidth) {
+      const characters = Array.from(text || "");
+      const lines = [];
+      let line = "";
+      for (const character of characters) {
+        const candidate = line + character;
+        if (line && context.measureText(candidate).width > maxWidth) {
+          lines.push(line);
+          line = character;
+        } else {
+          line = candidate;
+        }
+      }
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function drawWrappedText(context, text, x, y, maxWidth, lineHeight, maxLines) {
+      const lines = wrapLines(context, text, maxWidth);
+      const visible = lines.slice(0, maxLines);
+      visible.forEach((line, index) => {
+        const suffix = index === maxLines - 1 && lines.length > maxLines ? "…" : "";
+        context.fillText(line + suffix, x, y + index * lineHeight);
+      });
+      return y + visible.length * lineHeight;
+    }
+
+    function drawStars(context) {
+      for (let index = 0; index < 42; index += 1) {
+        const x = (index * 149 + 61) % 1440;
+        const y = (index * 233 + 97) % 1800;
+        const radius = 1.2 + (index % 4) * .65;
+        context.globalAlpha = .18 + (index % 5) * .08;
+        context.fillStyle = index % 3 === 0 ? "#dcb960" : "#d8e8ff";
+        context.beginPath();
+        context.arc(x, y, radius, 0, Math.PI * 2);
+        context.fill();
+      }
+      context.globalAlpha = 1;
+    }
+
+    async function renderCard(data) {
+      await document.fonts.ready;
+      const canvas = document.createElement("canvas");
+      canvas.width = 1440;
+      canvas.height = 1800;
+      const context = canvas.getContext("2d");
+
+      const night = context.createLinearGradient(0, 0, 1440, 1800);
+      night.addColorStop(0, "#183754");
+      night.addColorStop(.52, "#0d2137");
+      night.addColorStop(1, "#07111e");
+      context.fillStyle = night;
+      context.fillRect(0, 0, 1440, 1800);
+      drawStars(context);
+
+      context.save();
+      context.shadowColor = "rgba(0,0,0,.48)";
+      context.shadowBlur = 42;
+      context.fillStyle = "#f2e5c4";
+      context.beginPath();
+      context.roundRect(98, 92, 1244, 1616, 42);
+      context.fill();
+      context.restore();
+
+      context.strokeStyle = "#b78946";
+      context.lineWidth = 4;
+      context.beginPath();
+      context.roundRect(118, 112, 1204, 1576, 32);
+      context.stroke();
+
+      context.fillStyle = "#6f4e2e";
+      context.font = "600 28px 'Noto Serif SC', 'Songti SC', serif";
+      context.textAlign = "center";
+      context.fillText("THE LITTLE PRINCE  |  PLANET MEMORY", 720, 196);
+
+      context.fillStyle = "#3c291c";
+      context.font = "700 82px 'Noto Serif SC', 'Songti SC', serif";
+      context.fillText(data.n || "我的星球", 720, 322);
+
+      context.fillStyle = "#9a6d38";
+      context.font = "700 42px 'Noto Serif SC', 'Songti SC', serif";
+      context.fillText(data.c || "星球手记", 720, 395);
+
+      context.textAlign = "left";
+      context.font = "600 34px 'Noto Serif SC', 'Songti SC', serif";
+      context.fillStyle = "#634329";
+      let y = 500;
+      const sections = [
+        ["星球手记", data.a || ""],
+        ["此刻的星球", data.b || ""],
+        ["星球回声", data.e || ""],
+      ];
+      for (const [label, value] of sections) {
+        context.fillStyle = "#9a6d38";
+        context.font = "700 32px 'Noto Serif SC', 'Songti SC', serif";
+        context.fillText(label, 178, y);
+        y += 52;
+        context.fillStyle = "#4b3526";
+        context.font = "600 36px 'Noto Serif SC', 'Songti SC', serif";
+        y = drawWrappedText(context, value, 178, y, 1084, 58, 6) + 44;
+      }
+
+      context.strokeStyle = "rgba(161, 117, 61, .42)";
+      context.lineWidth = 2;
+      context.beginPath();
+      context.moveTo(178, 1584);
+      context.lineTo(1262, 1584);
+      context.stroke();
+      context.fillStyle = "#7a5b3d";
+      context.font = "500 26px 'Noto Serif SC', 'Songti SC', serif";
+      context.fillText("小王子：纸间星旅", 178, 1642);
+      context.textAlign = "right";
+      context.fillText(data.d || "", 1262, 1642);
+
+      const url = canvas.toDataURL("image/png");
+      card.src = url;
+      download.href = url;
+    }
+
+    async function start() {
+      try {
+        const payload = new URLSearchParams(location.search).get("d");
+        if (!payload) throw new Error("二维码里没有星球手记内容。");
+        const data = await decompressPayload(payload);
+        await renderCard(data);
+        heading.textContent = data.n ? `${data.n}的星球手记` : "星球手记分享卡";
+        status.textContent = "长按图片可直接保存；二维码内容只在当前浏览器中解析。";
+      } catch (error) {
+        heading.textContent = "分享卡无法打开";
+        status.textContent = error.message || String(error);
+        status.classList.add("error");
+      }
+    }
+
+    start();
+  </script>
+</body>
+</html>
