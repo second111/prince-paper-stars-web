@@ -25,6 +25,8 @@ const MIN_CAPTURE_PITCH := -32.0
 const MAX_CAPTURE_PITCH := 38.0
 const CAPTURE_PITCH_STEP := 4.0
 const CAPTURE_ZOOM_STEP := 0.65
+const SHARE_UPLOAD_URL := "https://tmpfiles.org/api/v1/upload"
+const SHARE_EXPIRE_SECONDS := 86400
 const ITEM_SUMMARY_ORDER := [
 	"player_cottage",
 	"player_tent",
@@ -139,6 +141,7 @@ var last_letter_path := ""
 var last_photo_path := ""
 var last_letter_copy: Dictionary = {}
 var last_share_url := ""
+var last_share_is_temporary := false
 var planet_memory_share
 var letter_viewport: SubViewport
 
@@ -1204,9 +1207,13 @@ func _play_stamp_and_generate(planet_name: String) -> void:
 	last_letter_path = generated_path
 	result_letter.texture = ImageTexture.create_from_image(current_letter)
 	result_path_label.text = (
-		"已保存到星球记忆 | 手机与电脑连接同一网络后可扫码查看"
-		if not last_share_url.is_empty()
-		else "已保存到星球记忆 | 可以收下这张信纸了"
+		"已保存到星球记忆 | 二维码 24 小时内可扫码下载完整信笺"
+		if last_share_is_temporary
+		else (
+			"已保存到星球记忆 | 手机与电脑连接同一网络后可扫码查看"
+			if not last_share_url.is_empty()
+			else "已保存到星球记忆 | 可以收下这张信纸了"
+		)
 	)
 	result_root.visible = true
 	_layout_result_ui()
@@ -1284,17 +1291,8 @@ func _compose_letter(planet_name: String) -> String:
 	var narrative := String(last_letter_copy.get("narrative", ""))
 	var action_summary := String(last_letter_copy.get("action", ""))
 	var echo_summary := String(last_letter_copy.get("echo", ""))
-	var share_id := ""
 	last_share_url = ""
-	if planet_memory_share != null and planet_memory_share.is_running():
-		share_id = planet_memory_share.create_memory(
-			planet_name,
-			classification,
-			narrative,
-			action_summary,
-			echo_summary
-		)
-		last_share_url = planet_memory_share.get_share_url(share_id)
+	last_share_is_temporary = false
 	var title_font := load(TITLE_FONT_PATH) as Font
 	var body_font := _make_body_font()
 	_add_letter_label(
@@ -1384,37 +1382,37 @@ func _compose_letter(planet_name: String) -> String:
 		body_font
 	)
 
-	var qr_texture := _make_planet_qr(last_share_url)
-	if qr_texture != null:
-		var plaque := TextureRect.new()
-		plaque.texture = load(QR_PLAQUE_PATH) as Texture2D
-		plaque.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		plaque.stretch_mode = TextureRect.STRETCH_SCALE
-		plaque.position = Vector2(1106.0, 1165.0)
-		plaque.size = Vector2(176.0, 184.0)
-		plaque.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		canvas.add_child(plaque)
-		var qr_image := TextureRect.new()
-		qr_image.texture = qr_texture
-		qr_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		qr_image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		qr_image.position = Vector2(17.0, 17.0)
-		qr_image.size = Vector2(142.0, 142.0)
-		qr_image.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		plaque.add_child(qr_image)
-
 	await get_tree().process_frame
 	await RenderingServer.frame_post_draw
 	var rendered := letter_viewport.get_texture()
 	current_letter = rendered.get_image() if rendered != null else null
 	if current_letter == null or current_letter.is_empty():
 		return ""
+	last_share_url = await _upload_letter_image(current_letter)
+	last_share_is_temporary = not last_share_url.is_empty()
 	if (
-		not share_id.is_empty()
+		last_share_url.is_empty()
+		and not OS.has_feature("web")
 		and planet_memory_share != null
 		and planet_memory_share.is_running()
 	):
-		planet_memory_share.attach_image(share_id, current_letter)
+		var share_id: String = planet_memory_share.create_memory(
+			planet_name,
+			classification,
+			narrative,
+			action_summary,
+			echo_summary
+		)
+		last_share_url = planet_memory_share.get_share_url(share_id)
+		if not last_share_url.is_empty():
+			planet_memory_share.attach_image(share_id, current_letter)
+	if not last_share_url.is_empty():
+		_add_letter_qr(canvas, last_share_url)
+		await get_tree().process_frame
+		await RenderingServer.frame_post_draw
+		current_letter = rendered.get_image() if rendered != null else null
+		if current_letter == null or current_letter.is_empty():
+			return ""
 	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(OUTPUT_DIR))
 	var stamp_text := Time.get_datetime_string_from_system(false, false)
 	stamp_text = (
@@ -1921,6 +1919,104 @@ func _nearest_light_label(records: Array[Dictionary], point: Vector3) -> String:
 		best_distance = distance
 		best_label = _clean_item_label(record)
 	return best_label
+
+
+func _upload_letter_image(image: Image) -> String:
+	if image == null or image.is_empty():
+		return ""
+	var png := image.save_png_to_buffer()
+	if png.is_empty():
+		return ""
+	var boundary := "----LittlePrinceLetter%d" % Time.get_ticks_usec()
+	var body := PackedByteArray()
+	var multipart_header := (
+		"--%s\r\n"
+		+ "Content-Disposition: form-data; name=\"expire\"\r\n\r\n"
+		+ "%d\r\n"
+		+ "--%s\r\n"
+		+ "Content-Disposition: form-data; name=\"file\"; filename=\"planet-letter.png\"\r\n"
+		+ "Content-Type: image/png\r\n\r\n"
+	) % [boundary, SHARE_EXPIRE_SECONDS, boundary]
+	body.append_array(
+		multipart_header.to_utf8_buffer()
+	)
+	body.append_array(png)
+	body.append_array(("\r\n--%s--\r\n" % boundary).to_utf8_buffer())
+
+	var request := HTTPRequest.new()
+	request.timeout = 35.0
+	_configure_upload_proxy(request)
+	add_child(request)
+	var request_error := request.request_raw(
+		SHARE_UPLOAD_URL,
+		PackedStringArray([
+			"Content-Type: multipart/form-data; boundary=%s" % boundary,
+			"Accept: application/json",
+		]),
+		HTTPClient.METHOD_POST,
+		body
+	)
+	if request_error != OK:
+		push_warning("Letter share upload request failed: " + error_string(request_error))
+		request.queue_free()
+		return ""
+	var response: Array = await request.request_completed
+	request.queue_free()
+	if response.size() < 4 or int(response[0]) != HTTPRequest.RESULT_SUCCESS:
+		push_warning("Letter share upload transport failed: " + str(response))
+		return ""
+	var response_code := int(response[1])
+	if response_code < 200 or response_code >= 300:
+		push_warning("Letter share upload HTTP status: " + str(response_code))
+		return ""
+	var response_body := response[3] as PackedByteArray
+	var parsed = JSON.parse_string(response_body.get_string_from_utf8())
+	if typeof(parsed) != TYPE_DICTIONARY:
+		return ""
+	var parsed_dictionary := parsed as Dictionary
+	if String(parsed_dictionary.get("status", "")) != "success":
+		return ""
+	var data = parsed_dictionary.get("data", {})
+	if typeof(data) != TYPE_DICTIONARY:
+		return ""
+	return String((data as Dictionary).get("url", ""))
+
+
+func _configure_upload_proxy(request: HTTPRequest) -> void:
+	var proxy_value := OS.get_environment("LITTLE_PRINCE_HTTPS_PROXY").strip_edges()
+	if proxy_value.is_empty():
+		return
+	var proxy_host := proxy_value
+	var proxy_port := 8080
+	if proxy_host.begins_with("http://"):
+		proxy_host = proxy_host.trim_prefix("http://")
+	var separator := proxy_host.rfind(":")
+	if separator > 0:
+		proxy_port = int(proxy_host.substr(separator + 1))
+		proxy_host = proxy_host.substr(0, separator)
+	request.set_https_proxy(proxy_host, proxy_port)
+
+
+func _add_letter_qr(canvas: Control, share_url: String) -> void:
+	var qr_texture := _make_planet_qr(share_url)
+	if qr_texture == null:
+		return
+	var plaque := TextureRect.new()
+	plaque.texture = load(QR_PLAQUE_PATH) as Texture2D
+	plaque.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	plaque.stretch_mode = TextureRect.STRETCH_SCALE
+	plaque.position = Vector2(1106.0, 1165.0)
+	plaque.size = Vector2(176.0, 184.0)
+	plaque.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	canvas.add_child(plaque)
+	var qr_image := TextureRect.new()
+	qr_image.texture = qr_texture
+	qr_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	qr_image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	qr_image.position = Vector2(17.0, 17.0)
+	qr_image.size = Vector2(142.0, 142.0)
+	qr_image.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	plaque.add_child(qr_image)
 
 
 func _make_planet_qr(share_url: String) -> Texture2D:
