@@ -74,6 +74,7 @@ jobs:
           godot --headless --path . --editor --quit
           godot --headless --path . --export-release Web "$PWD/build/index.html"
           cp share.html build/share.html
+          cp -r share-tests build/share-tests
           touch build/.nojekyll
           du -sh build
           find build -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
